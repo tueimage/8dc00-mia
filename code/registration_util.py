@@ -45,16 +45,18 @@ def t2h(T, t):
 
     #------------------------------------------------------------------#
     # TODO: Implement conversion of a transformation matrix and a translation vector to homogeneous transformation matrix.
+    # remove the 'pass' once implemented
+    pass
     #------------------------------------------------------------------#
 
 
 def plot_object(ax, X):
     # Plot 2D object.
-    #
+
     # Input:
     # X - coordinates of the shape
 
-    ax.plot(X[0,:], X[1,:], linewidth=2);
+    ax.plot(X[0,:], X[1,:], linewidth=2)
 
 
 def my_cpselect(I_path, Im_path):

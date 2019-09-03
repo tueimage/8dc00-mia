@@ -133,9 +133,10 @@ def image_transform_test():
 
 
 def ls_solve_test():
-
     #------------------------------------------------------------------#
     # TODO: Test your implementation of the ls_solve definition
+    # remove the 'pass' once implemented
+    pass
     #------------------------------------------------------------------#
 
 
