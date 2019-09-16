@@ -20,9 +20,7 @@ Before you start, it is **highly recommended** to read the [general exercise gui
 
 ##  Segmentation of medical images
 
-*TBA*
 
-<!---
 * [Introduction](notebooks/segmentation_introduction.ipynb)
 
 * Exercises
@@ -31,7 +29,7 @@ Before you start, it is **highly recommended** to read the [general exercise gui
   ** Exercise 3: [Atlases and active shapes](notebooks/segmentation_exercise_3.ipynb)
 
 * [Project work](notebooks/segmentation_project.ipynb)
--->
+
 
 ## Computer-aided diagnosis
 
