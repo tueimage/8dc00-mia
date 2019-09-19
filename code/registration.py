@@ -5,6 +5,7 @@ Registration module main code.
 import numpy as np
 from scipy import ndimage
 import registration_util as util
+import math
 
 
 # SECTION 1. Geometrical transformations
@@ -40,9 +41,11 @@ def rotate(phi):
     # T - transformation matrix
 
     #------------------------------------------------------------------#
-    # TODO: Implement transformation matrix for rotation.
+    # TODO: Implement transformation matrix for rotation.    
     #------------------------------------------------------------------#
 
+    T = np.array([[math.cos(phi),-math.sin(phi)],[math.sin(phi),math.cos(phi)]])
+    
     return T
 
 
@@ -58,6 +61,8 @@ def shear(cx, cy):
     # TODO: Implement transformation matrix for shear.
     #------------------------------------------------------------------#
 
+    T = np.array([[1,cx],[cy,1]])
+                 
     return T
 
 
@@ -78,6 +83,8 @@ def reflect(rx, ry):
     # TODO: Implement transformation matrix for reflection
     #------------------------------------------------------------------#
 
+    T = np.array([[rx,0],[0,ry]])
+                 
     return T
 
 
@@ -114,6 +121,8 @@ def image_transform(I, Th,  output_shape=None):
 
     #------------------------------------------------------------------#
     # TODO: Perform inverse coordinates mapping.
+    
+    Xt = np.linalg.inv(Th).dot(Xh)
     #------------------------------------------------------------------#
 
     It = ndimage.map_coordinates(I, [Xt[1,:], Xt[0,:]], order=1, mode='constant').reshape(I.shape)
@@ -132,12 +141,12 @@ def ls_solve(A, b):
 
     #------------------------------------------------------------------#
     # TODO: Implement the least-squares solution for w.
+    w = np.linalg.inv(np.transpose(A).dot(A)).dot(np.transpose(A)).dot(b);
     #------------------------------------------------------------------#
 
     # compute the error
     E = np.transpose(A.dot(w) - b).dot(A.dot(w) - b)
-
-    return w, E
+    return w
 
 
 def ls_affine(X, Xm):
@@ -153,6 +162,13 @@ def ls_affine(X, Xm):
     #------------------------------------------------------------------#
     # TODO: Implement least-squares fitting of an affine transformation.
     # Use the ls_solve() function that you have previously implemented.
+    b1 = np.transpose(X[1,:]);
+    b2 = np.transpose(X[2,:]);
+    
+    w1 = ls_solve(A,b1)
+    w2 = ls_solve(A,b2)
+    
+    T = np.matrix([[np.transpose(w1)],[np.transpose(w2)], [0,0,1]])
     #------------------------------------------------------------------#
 
     return T
@@ -182,6 +198,8 @@ def correlation(I, J):
     #------------------------------------------------------------------#
     # TODO: Implement the computation of the normalized cross-correlation.
     # This can be done with a single line of code, but you can use for-loops instead.
+    
+    CC = (np.transpose(u).dot(v)) / np.sqrt(np.transpose(u).dot(u)*np.sqrt(np.transpose(v).dot(v))
     #------------------------------------------------------------------#
 
     return CC

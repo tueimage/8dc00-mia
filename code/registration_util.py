@@ -35,7 +35,7 @@ def c2h(X):
     return Xh
 
 
-def t2h(T, t):
+def t2h(T,Xt):
     # Convert a 2D transformation matrix to homogeneous form.
     # Input:
     # T - 2D transformation matrix
@@ -46,8 +46,13 @@ def t2h(T, t):
     #------------------------------------------------------------------#
     # TODO: Implement conversion of a transformation matrix and a translation vector to homogeneous transformation matrix.
     # remove the 'pass' once implemented
-    pass
     #------------------------------------------------------------------#
+    
+    Th = np.eye(3)
+    Th[0:2,0:2] = T
+    Th[0:2,2] = Xt
+    
+    return Th
 
 
 def plot_object(ax, X):

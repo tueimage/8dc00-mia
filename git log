@@ -1,0 +1,23 @@
+[33mcommit bf4ad1a806d5a6d4ca95139e8378ab2d94d567ac[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: roel.vanherten@cytosmart.com <roel.vanherten@cytosmart.com>
+Date:   Tue Sep 3 15:08:48 2019 +0200
+
+    fixed indentation error in registration_tests and registration_util
+
+[33mcommit 7dc8b7b1d577b962975574b25bb4b8f65e9d799c[m
+Author: Mitko Veta <mitko.veta@gmail.com>
+Date:   Fri Aug 30 14:35:49 2019 +0200
+
+    initial commit registration
+
+[33mcommit b53c68880221eabfca5d8129e02d24a3a12679cd[m
+Author: Andrey Zhylka <AndrewZh@users.noreply.github.com>
+Date:   Thu Aug 29 11:33:05 2019 +0200
+
+    Update README.md
+
+[33mcommit 453aa6b7a2e1f02c2c4d586d4b778e1b910eab2e[m
+Author: Mitko Veta <mitko.veta@gmail.com>
+Date:   Mon Aug 26 11:12:05 2019 +0200
+
+    Initial commit

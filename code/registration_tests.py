@@ -48,6 +48,32 @@ def combining_transforms():
     #------------------------------------------------------------------#
     # TODO: Experiment with combining transformation matrices.
     #------------------------------------------------------------------#
+    
+    X_t = reg.reflect(-1,1).dot(reg.rotate(np.pi/2)).dot(X)
+    X_t_rev = reg.rotate(np.pi/2).dot(reg.reflect(-1,1)).dot(X)
+    X_t2 = reg.rotate(np.pi/4).dot(reg.scale(0.5,2)).dot(X)
+    
+    fig = plt.figure(figsize=(12,5))
+    ax1 = fig.add_subplot(141, xlim=(-4,4), ylim=(-4,4))
+    ax2 = fig.add_subplot(142, xlim=(-4,4), ylim=(-4,4))
+    ax3 = fig.add_subplot(143, xlim=(-4,4), ylim=(-4,4))
+    ax4 = fig.add_subplot(144, xlim=(-4,4), ylim=(-4,4))
+    
+    util.plot_object(ax1, X)
+    util.plot_object(ax2, X_t)
+    util.plot_object(ax3, X_t_rev)
+    util.plot_object(ax4, X_t2)
+    
+    ax1.set_title('Original')
+    ax2.set_title('Combination')
+    ax3.set_title('Combination in reverse order')
+    ax4.set_title('Other Combination')
+
+    ax1.grid()
+    ax2.grid()
+    ax3.grid()
+    ax4.grid()
+
 
 
 def t2h_test():
@@ -81,7 +107,15 @@ def arbitrary_rotation():
     # TODO: TODO: Perform rotation of the test shape around the first vertex
     #------------------------------------------------------------------#
 
-    X_rot = T.dot(Xh)
+    Xt = X[:,0]
+    
+    
+    T = util.t2h(reg.rotate(np.pi/4),Xt)
+    T_2  = util.t2h(reg.identity(),-Xt)
+    
+    X_rot = T_2.dot(Xh)
+    
+    X_rot = T.dot(X_rot)
 
     fig = plt.figure(figsize=(5,5))
     ax1 = fig.add_subplot(111)
@@ -136,8 +170,11 @@ def ls_solve_test():
     #------------------------------------------------------------------#
     # TODO: Test your implementation of the ls_solve definition
     # remove the 'pass' once implemented
-    pass
+    A = np.matrix([[3,4],[5,6],[7,8],[17,10]])
+    b = np.matrix([[1],[2],[3],[4]])
+    w = reg.ls_solve(A,b)
     #------------------------------------------------------------------#
+    return w
 
 
 def ls_affine_test():
@@ -192,6 +229,10 @@ def correlation_test():
 
     #------------------------------------------------------------------#
     # TODO: Implement a few more tests of the correlation definition
+    
+    C2 = reg.correlation(I,J)
+    
+    assert reg.correlation(C2) == -reg.correlation(-double(i),J);
     #------------------------------------------------------------------#
 
     print('Test successful!')
