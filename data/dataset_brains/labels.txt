@@ -1,0 +1,8 @@
+1 cerebellum
+2 white matter hyperintensities/lesions
+3 basal ganglia and thalami
+4 ventricles
+5 white matter
+6 brainstem
+7 cortical grey matter
+8 cerebrospinal fluid in the extracerebral space 

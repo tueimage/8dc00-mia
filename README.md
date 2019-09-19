@@ -20,18 +20,16 @@ Before you start, it is **highly recommended** to read the [general exercise gui
 
 ##  Segmentation of medical images
 
-*TBA*
 
-<!---
 * [Introduction](notebooks/segmentation_introduction.ipynb)
 
 * Exercises
-  ** Exercise 1: [Segmentation in feature space](notebooks/segmentation_exercise_1.ipynb)
-  ** Exercise 2: [Generalization and overfitting](notebooks/segmentation_exercise_2.ipynb)
-  ** Exercise 3: [Atlases and active shapes](notebooks/segmentation_exercise_3.ipynb)
+  * Exercise 1: [Segmentation in feature space](notebooks/segmentation_exercise_1.ipynb)
+  * Exercise 2: [Generalization and overfitting](notebooks/segmentation_exercise_2.ipynb)
+  * Exercise 3: [Atlases and active shapes](notebooks/segmentation_exercise_3.ipynb)
 
 * [Project work](notebooks/segmentation_project.ipynb)
--->
+
 
 ## Computer-aided diagnosis
 
