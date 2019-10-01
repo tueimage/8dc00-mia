@@ -194,7 +194,7 @@ def ls_affine_test():
 
     Te = reg.ls_affine(Xh, Xm)
 
-    Xmt = Te.dot(Xm);
+    Xmt = Te.dot(Xm)
 
     fig = plt.figure(figsize=(12,5))
 
@@ -214,7 +214,6 @@ def ls_affine_test():
     ax2.grid()
     ax3.grid()
 
-
 # SECTION 3. Image similarity metrics
 
 def correlation_test():
@@ -232,7 +231,7 @@ def correlation_test():
     
     C2 = reg.correlation(I,J)
     
-    assert reg.correlation(C2) == -reg.correlation(-double(i),J);
+    assert C2 == -reg.correlation(-I,J);
     #------------------------------------------------------------------#
 
     print('Test successful!')

@@ -9,6 +9,33 @@ import scipy
 from sklearn.neighbors import KNeighborsClassifier
 
 
+
+def ngradient(fun, x, h=1e-3):
+    # Computes the derivative of a function with numerical differentiation.
+    # Input:
+    # fun - function for which the gradient is computed
+    # x - vector of parameter values at which to compute the gradient
+    # h - a small positive number used in the finite difference formula
+    # Output:
+    # g - vector of partial derivatives (gradient) of fun
+
+    #------------------------------------------------------------------#
+    # TODO: Implement the  computation of the partial derivatives of
+    # the function at x with numerical differentiation.
+    # g[k] should store the partial derivative w.r.t. the k-th parameter
+    #n=np.arange(x.shape[0])
+    g = np.zeros_like(x)
+    for k in range(len(x)):
+        x1 = x.copy()
+        x1[k]=x1[k]+h/2
+        x2 = x.copy()
+        x2[k]=x2[k]-h/2
+        t = (fun(x1)[0]-fun(x2)[0])/h
+        g[k]= t
+    #------------------------------------------------------------------#
+
+    return g
+
 # SECTION 1. Segmentation in feature space
 
 def generate_gaussian_data(N=100, mu1=[0,0], mu2=[2,0], sigma1=[[1,0],[0,1]], sigma2=[[1,0],[0,1]]):

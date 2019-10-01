@@ -156,19 +156,21 @@ def ls_affine(X, Xm):
     # Xm - Corresponding points in the moving image
     # Output:
     # T - affine transformation in homogeneous form.
-
+    print(Xm.shape)
     A = np.transpose(Xm)
 
     #------------------------------------------------------------------#
     # TODO: Implement least-squares fitting of an affine transformation.
     # Use the ls_solve() function that you have previously implemented.
-    b1 = np.transpose(X[1,:]);
-    b2 = np.transpose(X[2,:]);
+    b1 = np.transpose(X[0,:]);
+    b2 = np.transpose(X[1,:]);
     
     w1 = ls_solve(A,b1)
     w2 = ls_solve(A,b2)
     
-    T = np.matrix([[np.transpose(w1)],[np.transpose(w2)], [0,0,1]])
+    T = np.eye(3)
+    T[0] = np.transpose(w1)
+    T[1] = np.transpose(w2)
     #------------------------------------------------------------------#
 
     return T
@@ -199,11 +201,11 @@ def correlation(I, J):
     # TODO: Implement the computation of the normalized cross-correlation.
     # This can be done with a single line of code, but you can use for-loops instead.
     
-    CC = (np.transpose(u).dot(v)) / np.sqrt(np.transpose(u).dot(u)*np.sqrt(np.transpose(v).dot(v))
+    CC = np.transpose(u).dot(v) / (np.sqrt(np.transpose(u).dot(u))*np.sqrt(np.transpose(v).dot(v)))
     #------------------------------------------------------------------#
-
+    
     return CC
-
+    
 
 def joint_histogram(I, J, num_bins=16, minmax_range=None):
     # Compute the joint histogram of two signals.
