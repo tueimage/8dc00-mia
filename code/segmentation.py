@@ -192,6 +192,54 @@ def nn_classifier(train_data, train_labels, test_data):
     # TODO: Implement missing functionality
     #------------------------------------------------------------------#
 
+
+    return predicted_labels
+    
+
+def knn_classifier(train_data, train_labels, test_data, k):
+    # Returns the labels for test_data, predicted by the k-NN
+    # clasifier trained on train_data and train_labels
+    # Input:
+    # train_data - num_train x p matrix with features for the training data
+    # train_labels - num_train x 1 vector with labels for the training data
+    # test_data - num_test x p matrix with features for the test data
+    # k - Number of neighbors to take into account (1 by default)
+    # Output:
+    # predicted_labels - num_test x 1 predicted vector with labels for the test data
+    
+    D = scipy.spatial.distance.cdist(test_data, train_data, metric='euclidean')
+    sort_ix = np.argsort(D, axis=1)
+    sort_ix_k = sort_ix[:,:k] # Get the k smallest distances
+    predicted_labels = train_labels[sort_ix_k]
+    predicted_labels = scipy.stats.mode(predicted_labels, axis=1)[0]
+
+    return predicted_labels
+
+
+
+# SECTION 2. Generalization and overfitting
+
+
+def mypca(X):
+    # Rotates the data X such that the dimensions of rotated data Xpca
+    # are uncorrelated and sorted by variance.
+    # Input:
+    # X - Nxk feature matrix
+    # Output:
+    # X_pca - Nxk rotated feature matrix
+    # U - kxk matrix of eigenvectors
+    # Lambda - kx1 vector of eigenvalues
+    # fraction_variance - kx1 vector which stores how much variance
+    #                     is retained in the k components
+
+    X = X - np.mean(X, axis=0)
+
+    #------------------------------------------------------------------#
+    #TODO: Calculate covariance matrix of X, find eigenvalues and eigenvectors,
+    # sort them, and rotate X using the eigenvectors
+
+    #------------------------------------------------------------------#
+
     #Return fraction of variance
     fraction_variance = np.zeros((X_pca.shape[1],1))
     for i in np.arange(X_pca.shape[1]):
