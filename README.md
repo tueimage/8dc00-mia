@@ -33,8 +33,6 @@ Before you start, it is **highly recommended** to read the [general exercise gui
 
 ## Computer-aided diagnosis
 
-*TBA*
-<!---
 * [Introduction](notebooks/cad_introduction.ipynb)
 
 * Exercises
@@ -42,7 +40,6 @@ Before you start, it is **highly recommended** to read the [general exercise gui
   ** Exercise 2: [Logistic regression](notebooks/cad_exercise_2.ipynb)
 
 * [Project work](notebooks/cad_project.ipynb)
--->
 
 # Assessment
 
