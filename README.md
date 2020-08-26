@@ -9,7 +9,7 @@ TLDR: GitHub is for content, Canvas for communication and submission of assignme
 
 ## Hybrid schedule due to the coronavirus pandemic
 
-The 2020 edition of the course will be given in a hybrid manner, combining on-campus and online education. We have a limited capacity of 32 student on Tuesdays and 52 students on Thursdays to attend the lectures on-campus. In order to attend the lectures on campus, you have to subscribe for that lecture in Canvas (details will be posted on Canvas soon). All lectures will also be streamed online via Microsoft Teams for the students that want to attend remotely. All practical sessions (guided self-study) will only be online.
+The 2020 edition of the course will be given in a hybrid manner, combining on-campus and online education. We have a limited capacity of 52 student on Tuesdays and 32 students on Thursdays to attend the lectures on-campus. In order to attend the lectures on campus, you have to subscribe for that lecture in Canvas (see instructions in Canvas announcement). All lectures will also be streamed online via Microsoft Teams for the students that want to attend remotely and we aim to record the lectures simultaneously. All practical sessions (guided self-study) will only be online.
 
 The schedule is as follows:
 
