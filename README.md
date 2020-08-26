@@ -52,22 +52,22 @@ If you lack prior knowledge of the Python programming language, you can use the 
 
 ##  Medical image registration
 
-* Introduction into medical image registration
+* Introduction to medical image registration
   * Lecture slides
   * [Explanation exercises](notebooks/registration_introduction.ipynb)
 
 * Geometrical transformations
   * Lecture slides
   * [Exercise 1](notebooks/registration_exercise_1.ipynb)
-  
+
 * Image transformation and least squares fitting
   * Lecture slides
   * [Exercise 2](notebooks/registration_exercise_2.ipynb)
-  
+
 * Image similarity metrics
   * Lecture slides
   * [Exercise 3](notebooks/registration_exercise_3.ipynb)
-  
+
 * Towards intensity-based image registration
   * Lecture slides  
   * [Exercise 4](notebooks/registration_exercise_4.ipynb)
@@ -77,19 +77,13 @@ If you lack prior knowledge of the Python programming language, you can use the 
 
 ## Computer-aided diagnosis
 
-* [Introduction](notebooks/cad_introduction.ipynb)
-
-* Exercises
-  * *(coming soon)* Exercise 1: Linear regression
-  * *(coming soon)* Exercise 2: Logistic regression
-
-* *(coming soon)* Project work
+ *(coming soon)* 
 
 
 ## Self-study: Active shape models
 In week 8 of the course (19 - 23 October), we will study active shape models. To prepare, you are asked to carefully study the following two papers:
 
-* The original paper by Cootes and Taylor (1995): [Active Shape Models: Their Training and Application](http://dns2.asia.edu.tw/~ysho/YSHO-English/2000%20Engineering/PDF/Com%20Vis%20Ima%20Und61,%2038.pdf). 
+* The original paper by Cootes and Taylor (1995): [Active Shape Models: Their Training and Application](http://dns2.asia.edu.tw/~ysho/YSHO-English/2000%20Engineering/PDF/Com%20Vis%20Ima%20Und61,%2038.pdf).
 * A variation on this method by van Ginneken et al. (2002): [Active shape model segmentation with optimal features](https://ieeexplore.ieee.org/abstract/document/1076037)
 
 Make sure to read each paper carefully, look up the terminology that you don't understand, and prepare at least one **exam question** (including correctly formulated answer) on active shape models. You can submit your exam question via the assignment on Canvas. NB: the best exam question will be awarded with 0.5 bonus points on the final exam, and the question itself will be used in the exam.
@@ -118,4 +112,3 @@ Teaching assistants:
 * Glenn Bouwman (MSc student)
 * Stijn Bunk (MSc student)
 * Luuk van de Hoek (MSc student)
-
