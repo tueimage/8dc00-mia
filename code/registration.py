@@ -92,6 +92,7 @@ def image_transform(I, Th,  output_shape=None):
     # output_shape - size of the output image (default is same size as input)
     # Output:
     # It - transformed image
+	# Xt - remapped coordinates
     # we want double precision for the interpolation, but we want the
     # output to have the same data type as the input - so, we will
     # convert to double and remember the original input type
@@ -309,6 +310,8 @@ def ngradient(fun, x, h=1e-3):
     # Output:
     # g - vector of partial derivatives (gradient) of fun
 
+    g = np.zeros_like(x)
+
     #------------------------------------------------------------------#
     # TODO: Implement the  computation of the partial derivatives of
     # the function at x with numerical differentiation.
@@ -318,7 +321,7 @@ def ngradient(fun, x, h=1e-3):
     return g
 
 
-def rigid_corr(I, Im, x):
+def rigid_corr(I, Im, x, return_transform=True):
     # Computes normalized cross-correlation between a fixed and
     # a moving image transformed with a rigid transformation.
     # Input:
@@ -327,9 +330,11 @@ def rigid_corr(I, Im, x):
     # x - parameters of the rigid transform: the first element
     #     is the rotation angle and the remaining two elements
     #     are the translation
+    # return_transform: Flag for controlling the return values
     # Output:
     # C - normalized cross-correlation between I and T(Im)
     # Im_t - transformed moving image T(Im)
+    # Th - transformation matrix (only returned if return_transform=True)
 
     SCALING = 100
 
@@ -354,10 +359,13 @@ def rigid_corr(I, Im, x):
     # moving image
     C = correlation(I, Im_t)
 
-    return C, Im_t, Th
+    if return_transform:
+        return C, Im_t, Th
+    else:
+        return C
 
 
-def affine_corr(I, Im, x):
+def affine_corr(I, Im, x, return_transform=True):
     # Computes normalized cross-corrleation between a fixed and
     # a moving image transformed with an affine transformation.
     # Input:
@@ -368,10 +376,12 @@ def affine_corr(I, Im, x):
     #     scaling parameters, the fourth and fifth are the
     #     shearing parameters and the remaining two elements
     #     are the translation
+    # return_transform: Flag for controlling the return values
     # Output:
-    # C - normalized cross-corrleation between I and T(Im)
+    # C - normalized cross-correlation between I and T(Im)
     # Im_t - transformed moving image T(Im)
-
+    # Th - transformation matrix (only returned if return_transform=True)
+    
     NUM_BINS = 64
     SCALING = 100
 
@@ -379,10 +389,13 @@ def affine_corr(I, Im, x):
     # TODO: Implement the missing functionality
     #------------------------------------------------------------------#
 
-    return C, Im_t, Th
+    if return_transform:
+        return C, Im_t, Th
+    else:
+        return C
 
 
-def affine_mi(I, Im, x):
+def affine_mi(I, Im, x, return_transform=True):
     # Computes mutual information between a fixed and
     # a moving image transformed with an affine transformation.
     # Input:
@@ -393,9 +406,11 @@ def affine_mi(I, Im, x):
     #     scaling parameters, the fourth and fifth are the
     #     shearing parameters and the remaining two elements
     #     are the translation
+    # return_transform: Flag for controlling the return values
     # Output:
-    # MI - mutual information between I and T(Im)
+    # C - normalized cross-correlation between I and T(Im)
     # Im_t - transformed moving image T(Im)
+    # Th - transformation matrix (only returned if return_transform=True)
 
     NUM_BINS = 64
     SCALING = 100
@@ -404,4 +419,7 @@ def affine_mi(I, Im, x):
     # TODO: Implement the missing functionality
     #------------------------------------------------------------------#
 
-    return MI, Im_t, Th
+    if return_transform:
+        return C, Im_t, Th
+    else:
+        return C

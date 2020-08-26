@@ -11,6 +11,7 @@ from IPython.display import display, clear_output
 
 # SECTION 1. Geometrical transformations
 
+
 def transforms_test():
 
     X = util.test_object(1)
@@ -78,7 +79,7 @@ def arbitrary_rotation():
     Xh = util.c2h(X)
 
     #------------------------------------------------------------------#
-    # TODO: TODO: Perform rotation of the test shape around the first vertex
+    # TODO: Perform rotation of the test shape around the first vertex
     #------------------------------------------------------------------#
 
     X_rot = T.dot(Xh)
@@ -92,6 +93,7 @@ def arbitrary_rotation():
 
 
 # SECTION 2. Image transformation and least squares fitting
+
 
 def image_transform_test():
 
@@ -133,10 +135,9 @@ def image_transform_test():
 
 
 def ls_solve_test():
+
     #------------------------------------------------------------------#
     # TODO: Test your implementation of the ls_solve definition
-    # remove the 'pass' once implemented
-    pass
     #------------------------------------------------------------------#
 
 
@@ -151,7 +152,7 @@ def ls_affine_test():
     T_scale = reg.scale(1.2, 0.9)
     T_shear = reg.shear(0.2, 0.1)
 
-    T = util.t2h(T_rot.dot(T_scale).dot(T_shear), [10, 20])
+    T = util.t2h(T_rot.dot(T_scale).dot(T_shear), np.array([10, 20]))
 
     Xm = T.dot(Xh)
 
@@ -179,6 +180,7 @@ def ls_affine_test():
 
 
 # SECTION 3. Image similarity metrics
+
 
 def correlation_test():
 
@@ -229,6 +231,7 @@ def mutual_information_e_test():
 
 
 # SECTION 4. Towards intensity-based image registration
+
 
 def ngradient_test():
 
