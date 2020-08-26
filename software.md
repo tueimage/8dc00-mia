@@ -9,7 +9,7 @@ After installing Anaconda, you can create a new Conda environment and install th
 ````bash
 conda create --name 8dc00 python=3.6				# create a new environment called `8dc00`
 conda activate 8dc00						# activate this environment 
-conda install matplotlib jupyter scikit-learn scipy spyder		# install the required packages
+conda install matplotlib jupyter scikit-learn scipy spyder	# install the required packages
 ````
 
 NB: You have to activate the `8dc00` environment every time you start working on the assignments (`conda activate 8dc00`).
