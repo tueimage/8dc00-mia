@@ -2,14 +2,14 @@
 
 To get started with setting up a Python environment, follow the instructions in the Getting Started section of the [Essential Skills](https://github.com/tueimage/essential-skills/python-essentials) Python module. The Anaconda distribution is recommended. Optionally, you can use the desktop GUI called Anaconda Navigator.
 
-To run the complete development environment for this course, you need to install four additional Python packages: `matplotlib`, `jupyter`, `scikit-learn` and `scipy`. It is recommended to install these packages in a separate Conda environment. A Conda environment is a directory in which you can install files and packages such that their dependencies will not interact with other environments, which is very useful if you develop code for different courses or research projects. If you want to know more about how to use Conda, read the [docs](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html).
+To run the complete development environment for this course, you need to install four additional Python packages: `matplotlib`, `jupyter`, `scikit-learn`, `scipy` and `spyder`. It is recommended to install these packages in a separate Conda environment. A Conda environment is a directory in which you can install files and packages such that their dependencies will not interact with other environments, which is very useful if you develop code for different courses or research projects. If you want to know more about how to use Conda, read the [docs](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html).
 
 After installing Anaconda, you can create a new Conda environment and install the required packages by running the following commands from the Anaconda Prompt application:
 
 ````bash
 conda create --name 8dc00 python=3.6				# create a new environment called `8dc00`
 conda activate 8dc00						# activate this environment 
-conda install matplotlib jupyter scikit-learn scipy		# install the required packages
+conda install matplotlib jupyter scikit-learn scipy spyder		# install the required packages
 ````
 
 NB: You have to activate the `8dc00` environment every time you start working on the assignments (`conda activate 8dc00`).
