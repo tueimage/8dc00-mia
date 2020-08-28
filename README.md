@@ -29,6 +29,7 @@ The practical work will be done in groups. The groups will be formed in Canvas a
 Primary study materials are the lecture slides and the exercises. In addition, you can study the relevant sections from the following books:
 
 * Fitzpatrick, J.M., Hill, D.L. and Maurer Jr, C.R., [Image registration](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.464.5408&rep=rep1&type=pdf).
+* Kolter, Z. Do, C., [Linear Algebra Review and Reference](http://cs229.stanford.edu/section/cs229-linalg.pdf)
 * Toennies, Klaus D., [Guide to Medical Image Analysis - Methods and Algorithms](https://www.springer.com/gp/book/9781447173182)
 
 ## Software
