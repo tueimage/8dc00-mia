@@ -26,7 +26,7 @@ Tip: In Jupyter Notebooks, modules are not automatically re-imported after you c
 
 ## Code and data repository structure
 
-To get started, you have to clone this GitHub repository to your local machine, say to a folder named `8DC00`. Here you will find the following folder and file structure:
+To get started, you have to download this GitHub repository ("Code" --> "Download ZIP") to your local machine and unZIP, say to a folder named `8DC00`. Here you will find the following folder and file structure:
 
 ```bash
 8DC00
