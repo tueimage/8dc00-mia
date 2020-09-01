@@ -49,28 +49,28 @@ If you lack prior knowledge of the Python programming language, you can use the 
 
 # Lectures, exercises and projects
 
-* Course introduction
+* [Course introduction](https://canvas.tue.nl/courses/15629/files/2557301?module_item_id=207896)
 
 ##  Medical image registration
 
 * Introduction to medical image registration
-  * Lecture slides
+  * [Lecture slides](https://canvas.tue.nl/courses/15629/files/2557302?module_item_id=207897)
   * [Explanation exercises](notebooks/registration_introduction.ipynb)
 
 * Geometrical transformations
-  * Lecture slides
+  * [Lecture slides](https://canvas.tue.nl/courses/15629/files/2557302?module_item_id=207897) (in the same lecture as introduction to medical image registration)
   * [Exercise 1](notebooks/registration_exercise_1.ipynb)
 
 * Image transformation and least squares fitting
-  * Lecture slides
+  * [Lecture slides](https://canvas.tue.nl/courses/15629/files/2557303?module_item_id=207898)
   * [Exercise 2](notebooks/registration_exercise_2.ipynb)
 
 * Image similarity metrics
-  * Lecture slides
+  * [Lecture slides](https://canvas.tue.nl/courses/15629/files/2557304?module_item_id=207899)
   * [Exercise 3](notebooks/registration_exercise_3.ipynb)
 
 * Towards intensity-based image registration
-  * Lecture slides  
+  * [Lecture slides](https://canvas.tue.nl/courses/15629/files/2557304?module_item_id=207899) (in the same lecture as image similarity metrics)
   * [Exercise 4](notebooks/registration_exercise_4.ipynb)
 
 * [Project work](notebooks/registration_project.ipynb)
