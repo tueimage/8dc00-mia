@@ -70,7 +70,7 @@ If you lack prior knowledge of the Python programming language, you can use the 
   * [Exercise 3](notebooks/registration_exercise_3.ipynb)
 
 * Towards intensity-based image registration
-  * [Lecture slides: Intensity-based registration; Image similarity metrics](https://canvas.tue.nl/courses/15629/files/2557304?module_item_id=207899) (in the same lecture as image similarity metrics)
+  * [Lecture slides: Intensity-based registration; Image similarity metrics](https://canvas.tue.nl/courses/15629/files/2557304?module_item_id=207899)
   * [Exercise 4](notebooks/registration_exercise_4.ipynb)
 
 * [Project work](notebooks/registration_project.ipynb)
