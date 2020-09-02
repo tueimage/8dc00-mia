@@ -20,7 +20,7 @@ Since the practical sessions are scheduled immediately before or after the lectu
 
 **Lecture schedule:**
 
-<img src="Lecture_schedule.png" width="400">
+<img src="Lecture_schedule.png" width="600">
 
 ## Practical work (exercises and project work)
 
