@@ -19,7 +19,8 @@ The schedule is as follows:
 Since the practical sessions are scheduled immediately before or after the lectures, if you attend the lectures on-campus you might not have sufficient time to travel home for the guided self-study. The University is working on ensuring that there are sufficient number of safe workspaces on-campus so that you can log in from there.
 
 **Lecture schedule:**
-<img src="Lecture_schedule.png" width="200">
+
+<img src="Lecture_schedule.png" width="400">
 
 ## Practical work (exercises and project work)
 
