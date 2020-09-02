@@ -76,9 +76,9 @@ If you lack prior knowledge of the Python programming language, you can use the 
 * [Project work](notebooks/registration_project.ipynb)
 
 
-## computer-aided diagnosis 
+## Computer-aided diagnosis 
 
-* Introduction to Computer-aided diagnosis, k-NN, decision trees		
+* Introduction to computer-aided diagnosis, k-NN, decision trees		
   * Lecture slides
   * [Explanation exercises](notebooks/cad_introduction.ipynb)
 
