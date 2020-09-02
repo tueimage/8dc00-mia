@@ -76,9 +76,31 @@ If you lack prior knowledge of the Python programming language, you can use the 
 * [Project work](notebooks/registration_project.ipynb)
 
 
-## Computer-aided diagnosis
+## computer-aided diagnosis 
 
- *(coming soon)* 
+* Introduction to Computer-aided diagnosis, k-NN, decision trees		
+  * Lecture slides
+  * [Explanation exercises](notebooks/cad_introduction.ipynb)
+
+* Generalization and overfitting, linear regression
+  * Lecture slides
+  * [Exercise 1](notebooks/cad_exercise_1.ipynb)
+
+* Logistic regression, neural networks		
+  * Lecture slides
+  * [Exercise 2](notebooks/cad_exercise_2.ipynb)
+
+* Convolutional neural networks
+  * Lecture slides
+
+* Deep learning frameworks and applications		
+  * Lecture slides
+
+* Unsupervised machine learning		
+  * Lecture slides
+  * Optional exercises
+
+* Deep learning for deformable image registration		
 
 
 ## Self-study: Active shape models
