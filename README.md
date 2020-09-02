@@ -9,7 +9,7 @@ TLDR: GitHub is for content, Canvas for communication and submission of assignme
 
 ## Hybrid schedule due to the coronavirus pandemic
 
-The 2020 edition of the course will be given in a hybrid manner, combining on-campus and online education. We have a limited capacity of 32 student on Tuesdays and 52 students on Thursdays to attend the lectures on-campus. In order to attend the lectures on campus, you have to subscribe for that lecture in Canvas (details will be posted on Canvas soon). All lectures will also be streamed online via Microsoft Teams for the students that want to attend remotely. All practical sessions (guided self-study) will only be online.
+The 2020 edition of the course will be given in a hybrid manner, combining on-campus and online education. We have a limited capacity of 52 student on Tuesdays and 32 students on Thursdays to attend the lectures on-campus. In order to attend the lectures on campus, you have to subscribe for that lecture in Canvas (see instructions in Canvas announcement). All lectures will also be streamed online via Microsoft Teams for the students that want to attend remotely and we aim to record the lectures simultaneously. All practical sessions (guided self-study) will only be online.
 
 The schedule is as follows:
 
@@ -29,6 +29,7 @@ The practical work will be done in groups. The groups will be formed in Canvas a
 Primary study materials are the lecture slides and the exercises. In addition, you can study the relevant sections from the following books:
 
 * Fitzpatrick, J.M., Hill, D.L. and Maurer Jr, C.R., [Image registration](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.464.5408&rep=rep1&type=pdf).
+* Kolter, Z. Do, C., [Linear Algebra Review and Reference](http://cs229.stanford.edu/section/cs229-linalg.pdf)
 * Toennies, Klaus D., [Guide to Medical Image Analysis - Methods and Algorithms](https://www.springer.com/gp/book/9781447173182)
 
 ## Software
@@ -48,28 +49,28 @@ If you lack prior knowledge of the Python programming language, you can use the 
 
 # Lectures, exercises and projects
 
-* Course introduction
+* [Lecture slides: Course introduction](https://canvas.tue.nl/courses/15629/files/2557301?module_item_id=207896)
 
 ##  Medical image registration
 
 * Introduction to medical image registration
-  * Lecture slides
+  * [Lecture slides: Introduction to image registration; Geometrical transformations](https://canvas.tue.nl/courses/15629/files/2557302?module_item_id=207897)
   * [Explanation exercises](notebooks/registration_introduction.ipynb)
 
 * Geometrical transformations
-  * Lecture slides
+  * [Lecture slides: Introduction to image registration; Geometrical transformations](https://canvas.tue.nl/courses/15629/files/2557302?module_item_id=207897)
   * [Exercise 1](notebooks/registration_exercise_1.ipynb)
 
 * Image transformation and least squares fitting
-  * Lecture slides
+  * [Lecture slides: Point-based registration](https://canvas.tue.nl/courses/15629/files/2557303?module_item_id=207898)
   * [Exercise 2](notebooks/registration_exercise_2.ipynb)
 
 * Image similarity metrics
-  * Lecture slides
+  * [Lecture slides: Intensity-based registration; Image similarity metrics](https://canvas.tue.nl/courses/15629/files/2557304?module_item_id=207899)
   * [Exercise 3](notebooks/registration_exercise_3.ipynb)
 
 * Towards intensity-based image registration
-  * Lecture slides  
+  * [Lecture slides: Intensity-based registration; Image similarity metrics](https://canvas.tue.nl/courses/15629/files/2557304?module_item_id=207899)
   * [Exercise 4](notebooks/registration_exercise_4.ipynb)
 
 * [Project work](notebooks/registration_project.ipynb)
