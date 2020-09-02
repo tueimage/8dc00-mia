@@ -18,6 +18,10 @@ The schedule is as follows:
 
 Since the practical sessions are scheduled immediately before or after the lectures, if you attend the lectures on-campus you might not have sufficient time to travel home for the guided self-study. The University is working on ensuring that there are sufficient number of safe workspaces on-campus so that you can log in from there.
 
+**Lecture schedule:**
+![Lecture schedule](Lecture_schedule.png)
+Format: ![Alt Text](url)
+
 ## Practical work (exercises and project work)
 
 The practical work will be done in groups. The groups will be formed in Canvas and you will also submit all your work there (check the Assignments section for the deadlines). Your are expected to do this work independently with the help of the teaching assistants during the guided self-study sessions (begeleide zelfstudie). During these sessions, you will be able to join a Microsoft Teams meeting of one of the teaching assistants (each assistant will have a unique link that you can find on Canvas). You can also post your questions in the Discussion section in Canvas at any time.
