@@ -53,28 +53,28 @@ If you lack prior knowledge of the Python programming language, you can use the 
 
 # Lectures, exercises and projects
 
-* [Lecture slides: Course introduction](/lectures/1 - Course introduction.pdf)
+* [Lecture slides: Course introduction](lectures/1 - Course introduction.pdf)
 
 ##  Medical image registration
 
 * Introduction to medical image registration
-  * [Lecture slides: Introduction to image registration; Geometrical transformations](/lectures/2 - Introduction to image registration; Geometrical transformations.pdf)
+  * [Lecture slides: Introduction to image registration; Geometrical transformations](lectures/2 - Introduction to image registration; Geometrical transformations.pdf)
   * [Explanation exercises](notebooks/registration_introduction.ipynb)
 
 * Geometrical transformations
-  * [Lecture slides: Introduction to image registration; Geometrical transformations](/lectures/2 - Introduction to image registration; Geometrical transformations.pdf)
+  * [Lecture slides: Introduction to image registration; Geometrical transformations](lectures/2 - Introduction to image registration; Geometrical transformations.pdf)
   * [Exercise 1](notebooks/registration_exercise_1.ipynb)
 
 * Image transformation and least squares fitting
-  * [Lecture slides: Point-based registration](/lectures/3 - Point-based registration.pdf)
+  * [Lecture slides: Point-based registration](lectures/3 - Point-based registration.pdf)
   * [Exercise 2](notebooks/registration_exercise_2.ipynb)
 
 * Image similarity metrics
-  * [Lecture slides: Intensity-based registration; Image similarity metrics](/lectures/4 - Intensity-based registration; Evaluation metrics)
+  * [Lecture slides: Intensity-based registration; Image similarity metrics](lectures/4 - Intensity-based registration; Evaluation metrics)
   * [Exercise 3](notebooks/registration_exercise_3.ipynb)
 
 * Towards intensity-based image registration
-  * [Lecture slides: Intensity-based registration; Image similarity metrics](/lectures/4 - Intensity-based registration; Evaluation metrics)
+  * [Lecture slides: Intensity-based registration; Image similarity metrics](lectures/4 - Intensity-based registration; Evaluation metrics)
   * [Exercise 4](notebooks/registration_exercise_4.ipynb)
 
 * [Project work](notebooks/registration_project.ipynb)
