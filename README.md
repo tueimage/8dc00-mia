@@ -82,11 +82,11 @@ If you lack prior knowledge of the Python programming language, you can use the 
 
 ## Computer-aided diagnosis 
 
-* Introduction to computer-aided diagnosis, k-NN, decision trees		
+* Introduction to computer-aided diagnosis and machine learning
   * Lecture slides
   * [Explanation exercises](notebooks/cad_introduction.ipynb)
 
-* Generalization and overfitting, linear regression
+* Linear regression, generalization and overfitting
   * Lecture slides
   * [Exercise 1](notebooks/cad_exercise_1.ipynb)
 
