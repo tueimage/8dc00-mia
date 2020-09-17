@@ -83,7 +83,7 @@ If you lack prior knowledge of the Python programming language, you can use the 
 ## Computer-aided diagnosis 
 
 * Introduction to computer-aided diagnosis and machine learning
-  * [Lecture slides](lectures/5\ -\ Introduction\ to\ computer-aided\ diagnosis\ and\ machine\ learning.pdf)
+  * [Lecture slides](lectures/5%20-%20Introduction%20to%20computer-aided%20diagnosis%20and%20machine%20learning.pdf)
   * [Explanation exercises](notebooks/cad_introduction.ipynb)
 
 * Linear regression, generalization and overfitting
