@@ -86,7 +86,7 @@ If you lack prior knowledge of the Python programming language, you can use the 
   * [Lecture slides](lectures/5%20-%20Introduction%20to%20computer-aided%20diagnosis%20and%20machine%20learning.pdf)
   * [Explanation exercises](notebooks/cad_introduction.ipynb)
 
-* Linear regression, generalization and overfitting
+* Linear regression
   * [Lecture slides](lectures/6%20-%20Linear%20regression.pdf)
   * [Exercise 1](notebooks/cad_exercise_1.ipynb)
 
