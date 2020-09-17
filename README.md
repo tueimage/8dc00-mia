@@ -87,11 +87,11 @@ If you lack prior knowledge of the Python programming language, you can use the 
   * [Explanation exercises](notebooks/cad_introduction.ipynb)
 
 * Linear regression, generalization and overfitting
-  * [Lecture slides](lectures/6\ -\ Linear\ regression.pdf)
+  * [Lecture slides](lectures/6%20-%20Linear%20regression.pdf)
   * [Exercise 1](notebooks/cad_exercise_1.ipynb)
 
 * Logistic regression, neural networks		
-  * [Lecture slides](lectures/7\ -\ Logistic\ regression\ and\ neural\ networks.pdf)
+  * [Lecture slides](lectures/7%20-%20Logistic%20regression%20and%20neural%20networks.pdf)
   * [Exercise 2](notebooks/cad_exercise_2.ipynb)
 
 * Convolutional neural networks
