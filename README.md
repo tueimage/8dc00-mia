@@ -83,15 +83,15 @@ If you lack prior knowledge of the Python programming language, you can use the 
 ## Computer-aided diagnosis 
 
 * Introduction to computer-aided diagnosis and machine learning
-  * [Lecture slides]("lectures/5 - Introduction to computer-aided diagnosis and machine learning.pdf")
+  * [Lecture slides](lectures/5\ -\ Introduction\ to\ computer-aided\ diagnosis\ and\ machine\ learning.pdf)
   * [Explanation exercises](notebooks/cad_introduction.ipynb)
 
 * Linear regression, generalization and overfitting
-  * [Lecture slides](lectures/6 - Linear regression.pdf)
+  * [Lecture slides](lectures/6\ -\ Linear\ regression.pdf)
   * [Exercise 1](notebooks/cad_exercise_1.ipynb)
 
 * Logistic regression, neural networks		
-  * [Lecture slides](lectures/7 - Logistic regression and neural networks.pdf)
+  * [Lecture slides](lectures/7\ -\ Logistic\ regression\ and\ neural\ networks.pdf)
   * [Exercise 2](notebooks/cad_exercise_2.ipynb)
 
 * Convolutional neural networks
