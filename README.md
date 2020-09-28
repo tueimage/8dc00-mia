@@ -79,6 +79,9 @@ If you lack prior knowledge of the Python programming language, you can use the 
 
 * [Project work](notebooks/registration_project.ipynb)
 
+* Guest lecture: Registration Tools for Image Guided External Beam Radiotherapy (Dr. Cornel Zachiu, UMCU)
+  * [Lecture slides](lectures/Lecture_Slides_Cornel_Zachiu.pdf)
+
 
 ## Computer-aided diagnosis 
 
