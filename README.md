@@ -98,14 +98,16 @@ If you lack prior knowledge of the Python programming language, you can use the 
   * [Exercise 2](notebooks/cad_exercise_2.ipynb)
 
 * Convolutional neural networks
-  * Lecture slides
+  * [Lecture slides](lectures/8 - Convolutional_Neural_Networks.pdf)
+  * No extra exercise
 
 * Deep learning frameworks and applications		
-  * Lecture slides
+  * [Lecture slides](lectures/9 - Deep_learning_frameworks_applications.pdf)
+  * No extra exercise
 
 * Unsupervised machine learning		
   * Lecture slides
-  * Optional exercises
+  * [PCA Exercise / Demo](notesbooks/cad_exercise_PCA.ipynb)
 
 * Deep learning for deformable image registration		
 
