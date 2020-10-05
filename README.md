@@ -77,7 +77,7 @@ If you lack prior knowledge of the Python programming language, you can use the 
   * [Lecture slides: Intensity-based registration; Image similarity metrics](lectures/4_Intensity_based_registration_Evaluation_metrics.pdf)
   * [Exercise 4](notebooks/registration_exercise_4.ipynb)
 
-* [Project work](notebooks/registration_project.ipynb)
+* [Project work registration](notebooks/registration_project.ipynb)
 
 * Guest lecture: Registration Tools for Image Guided External Beam Radiotherapy (Dr. Cornel Zachiu, UMCU)
   * [Lecture slides](lectures/Lecture_Slides_Cornel_Zachiu.pdf)
@@ -96,6 +96,8 @@ If you lack prior knowledge of the Python programming language, you can use the 
 * Logistic regression, neural networks		
   * [Lecture slides](lectures/7%20-%20Logistic%20regression%20and%20neural%20networks.pdf)
   * [Exercise 2](notebooks/cad_exercise_2.ipynb)
+
+* [Project work CAD](notebooks/cad_project.ipynb)
 
 * Convolutional neural networks
   * [Lecture slides](lectures/8%20-%20Convolutional_Neural_Networks.pdf)
