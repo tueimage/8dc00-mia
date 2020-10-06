@@ -104,7 +104,7 @@ If you lack prior knowledge of the Python programming language, you can use the 
   * No extra exercise
 
 * Deep learning frameworks and applications		
-  * [Lecture slides](lectures/9%20-%20Deep_learning_frameworks_applications.pdf)
+  * [Lecture slides](lectures/9%20-%20Deep_learning_frameworks_applications%20-%20with_exercise_answers.pdf)
   * No extra exercise
 
 * Unsupervised machine learning		
