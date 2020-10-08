@@ -108,7 +108,7 @@ If you lack prior knowledge of the Python programming language, you can use the 
   * No extra exercise
 
 * Unsupervised machine learning		
-  * Lecture slides
+  * [Lecture slides](lectures/10%20-%20Unsupervised_machine_learning.pdf)
   * [PCA Exercise / Demo](notesbooks/cad_exercise_PCA.ipynb)
 
 * Deep learning for deformable image registration		
