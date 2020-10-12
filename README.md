@@ -111,8 +111,12 @@ If you lack prior knowledge of the Python programming language, you can use the 
   * [Lecture slides](lectures/10%20-%20Unsupervised_machine_learning.pdf)
   * [PCA Exercise / Demo](notesbooks/cad_exercise_PCA.ipynb)
 
-* Deep learning for deformable image registration		
+* Deep learning for deformable image registration
+  * [Lecture slides](lectures/11_Deep_learning_for_deformable_image_registration.pdf)
 
+* Guest lecture: dr. Geert-Jan Rutten (ETZ Tilburg)
+  * [Lecture slides]
+  
 
 ## Self-study: Active shape models
 In week 8 of the course (19 - 23 October), we will study active shape models. To prepare, you are asked to carefully study the following two papers:
