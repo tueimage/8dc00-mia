@@ -124,7 +124,10 @@ In week 8 of the course (19 - 23 October), we will study active shape models. To
 * The original paper by Cootes and Taylor (1995): [Active Shape Models: Their Training and Application](http://dns2.asia.edu.tw/~ysho/YSHO-English/2000%20Engineering/PDF/Com%20Vis%20Ima%20Und61,%2038.pdf).
 * A variation on this method by van Ginneken et al. (2002): [Active shape model segmentation with optimal features](https://ieeexplore.ieee.org/abstract/document/1076037)
 
-Make sure to read each paper carefully, look up the terminology that you don't understand, and prepare at least one **exam question** (including correctly formulated answer) on active shape models. You can submit your exam question via the assignment on Canvas. NB: the best exam question will be awarded with 0.5 bonus points on the final exam, and the question itself will be used in the exam.
+Make sure to read each paper carefully, look up the terminology that you don't understand, and prepare at least one **exam question** on active shape models, including a correctly formulated answer. You can submit your exam question via the assignment on Canvas. NB: the best exam question will be awarded with 0.5 bonus points on the final exam, and the question itself will be used in the exam.
+
+* [Submit your exam question and answer here](https://canvas.tue.nl/courses/15629/assignments/47849) before October 23rd!
+
 
 # Assessment
 
