@@ -56,7 +56,7 @@ def nuclei_measurement():
     # visualize the results
     fig2 = plt.figure(figsize=(16,8))
     ax1  = fig2.add_subplot(121)
-    line1, = ax1.plot(predicted_y, test_y, ".g", markersize=3)
+    line1, = ax1.plot(test_y, predicted_y, ".g", markersize=3)
     ax1.grid()
     ax1.set_xlabel('Area')
     ax1.set_ylabel('Predicted Area')
@@ -70,7 +70,7 @@ def nuclei_measurement():
 
     # visualize the results
     ax2  = fig2.add_subplot(122)
-    line2, = ax2.plot(predicted_y, test_y, ".g", markersize=3)
+    line2, = ax2.plot(test_y, predicted_y, ".g", markersize=3)
     ax2.grid()
     ax2.set_xlabel('Area')
     ax2.set_ylabel('Predicted Area')
