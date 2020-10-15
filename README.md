@@ -115,7 +115,7 @@ If you lack prior knowledge of the Python programming language, you can use the 
   * [Lecture slides](lectures/11_Deep_learning_for_deformable_image_registration.pdf)
 
 * Guest lecture: dr. Geert-Jan Rutten (ETZ Tilburg)
-  * [Lecture slides]
+  * Because of the large amount of patient data and clinical images in his lecture, Geert-Jan prefers not to put his lecture slides on GitHub. Instead, you can (re-)watch his lecture via the video recording link on Canvas.
   
 
 ## Self-study: Active shape models
