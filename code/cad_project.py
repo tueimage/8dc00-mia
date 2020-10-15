@@ -86,8 +86,8 @@ def nuclei_classification():
     test_y = mat["test_y"] # (20730, 1)
     training_images = mat["training_images"] # (24, 24, 3, 14607)
     training_y = mat["training_y"] # (14607, 1)
-    validation_images = mat["training_images"] # (24, 24, 3, 14607)
-    validation_y = mat["training_y"] # (14607, 1)
+    validation_images = mat["validation_images"] # (24, 24, 3, 7303)
+    validation_y = mat["validation_y"] # (7303, 1)
 
     ## dataset preparation
     imageSize = training_images.shape
