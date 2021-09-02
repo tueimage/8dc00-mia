@@ -132,7 +132,7 @@ def image_transform_test():
     ax1.set_title('Rotation')
     ax2.set_title('Shearing')
     ax3.set_title('Scaling')
-
+    
 
 def ls_solve_test():
 
@@ -158,7 +158,7 @@ def ls_affine_test():
 
     Te = reg.ls_affine(Xh, Xm)
 
-    Xmt = Te.dot(Xm);
+    Xmt = Te.dot(Xm)
 
     fig = plt.figure(figsize=(12,5))
 

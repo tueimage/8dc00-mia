@@ -97,7 +97,7 @@ def image_transform(I, Th,  output_shape=None):
     # output to have the same data type as the input - so, we will
     # convert to double and remember the original input type
 
-    input_type = type(I);
+    input_type = type(I)
 
     # default output size is same as input
     if output_shape is None:
@@ -117,7 +117,7 @@ def image_transform(I, Th,  output_shape=None):
     # TODO: Perform inverse coordinates mapping.
     #------------------------------------------------------------------#
 
-    It = ndimage.map_coordinates(I, [Xt[1,:], Xt[0,:]], order=1, mode='constant').reshape(I.shape)
+    It = ndimage.map_coordinates(I, [Xt[1,:], Xt[0,:]], order=1, mode='constant').reshape(output_shape)
 
     return It, Xt
 

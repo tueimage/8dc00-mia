@@ -1,6 +1,0 @@
-cpselect==1.0.2
-jupyter==1.0.0
-matplotlib==3.1.1
-numpy==1.17.1
-scikit-learn==0.21.3
-scipy==1.3.1

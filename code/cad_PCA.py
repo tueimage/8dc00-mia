@@ -1,9 +1,10 @@
 """
-(Helper) code for the PCA exercise in ../notebooks/PCA_exercise.ipynb
+Helper code for PCA (intuitive interpretations)
 """
 
 import numpy as np
 import matplotlib.pyplot as plt
+import cad_util as cad
 from IPython.display import display, clear_output
 
 

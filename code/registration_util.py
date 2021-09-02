@@ -54,7 +54,7 @@ def plot_object(ax, X):
     # Input:
     # X - coordinates of the shape
 
-    ax.plot(X[0,:], X[1,:], linewidth=2);
+    ax.plot(X[0,:], X[1,:], linewidth=2)
 
 
 def cpselect(imagePath1, imagePath2):

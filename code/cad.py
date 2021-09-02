@@ -3,8 +3,6 @@ CAD module code main code.
 """
 
 import numpy as np
-import cad_util as util
-
 
 def sigmoid(a):
     # Computes the sigmoid function
@@ -42,7 +40,6 @@ def lr_nll(X, Y, Theta):
 
     return L
 
-
 def lr_agrad(X, Y, Theta):
     # Gradient of the negative log-likelihood for a logistic regression
     # classifier.
@@ -62,3 +59,29 @@ def lr_agrad(X, Y, Theta):
     g = np.sum((p - Y)*X, axis=0).reshape(1,-1)
 
     return g
+
+def mypca(X):
+    # Rotates the data X such that the dimensions of rotated data Xpca
+    # are uncorrelated and sorted by variance.
+    # Input:
+    # X - Nxk feature matrix
+    # Output:
+    # X_pca - Nxk rotated feature matrix
+    # U - kxk matrix of eigenvectors
+    # Lambda - kx1 vector of eigenvalues
+    # fraction_variance - kx1 vector which stores how much variance
+    #                     is retained in the k components
+
+    X = X - np.mean(X, axis=0)
+
+    #------------------------------------------------------------------#
+    #TODO: Calculate covariance matrix of X, find eigenvalues and eigenvectors,
+    # sort them, and rotate X using the eigenvectors
+    #------------------------------------------------------------------#
+
+    #Return fraction of variance
+    fraction_variance = np.zeros((X_pca.shape[1],1))
+    for i in np.arange(X_pca.shape[1]):
+        fraction_variance[i] = np.sum(w[:i+1])/np.sum(w)
+
+    return X_pca, v, w, fraction_variance

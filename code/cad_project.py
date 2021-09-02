@@ -90,28 +90,8 @@ def nuclei_classification():
     validation_y = mat["validation_y"] # (7303, 1)
 
     ## dataset preparation
-    imageSize = training_images.shape
-    # every pixel is a feature so the number of features is:
-    # height x width x color channels
-    numFeatures = imageSize[0]*imageSize[1]*imageSize[2]
-    training_x = training_images.reshape(numFeatures, training_images.shape[3]).T.astype(float)
-    validation_x = validation_images.reshape(numFeatures, validation_images.shape[3]).T.astype(float)
-    test_x = test_images.reshape(numFeatures, test_images.shape[3]).T.astype(float)
-
-    # the training will progress much better if we
-    # normalize the features
-    meanTrain = np.mean(training_x, axis=0).reshape(1,-1)
-    stdTrain = np.std(training_x, axis=0).reshape(1,-1)
-
-    training_x = training_x - np.tile(meanTrain, (training_x.shape[0], 1))
-    training_x = training_x / np.tile(stdTrain, (training_x.shape[0], 1))
-
-    validation_x = validation_x - np.tile(meanTrain, (validation_x.shape[0], 1))
-    validation_x = validation_x / np.tile(stdTrain, (validation_x.shape[0], 1))
-
-    test_x = test_x - np.tile(meanTrain, (test_x.shape[0], 1))
-    test_x = test_x / np.tile(stdTrain, (test_x.shape[0], 1))
-
+    training_x, validation_x, test_x = util.reshape_and_normalize(training_images, validation_images, test_images)      
+    
     ## training linear regression model
     #-------------------------------------------------------------------#
     # TODO: Select values for the learning rate (mu), batch size
