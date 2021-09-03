@@ -23,7 +23,9 @@ The schedule is as follows:
 * **Lectures**: Tuesdays 13:30 – 15:30 (location: Gemini-zuid 3A.12) & Thursdays 8:45 – 10:45 (location: Atlas -1.310)
 * **Guided self-study**: Tuesdays 15:30 - 17:30 (location: Gemini-zuid 3A.12/13) & Thursdays 10:45 - 12:45 (location: Atlas 2.215/Helix oost 1.91)
 
-NB: Since there are two rooms available for the guided self-study, students with last names starting with A-K are requested to work in the first room that is mentioned, and L-Z in the second room.
+NB: Since there are two rooms available for the guided self-study, you will be divided over the rooms by your group number (sign yourself up in Canvas->people->groups):
+* **Groups 1-10** work in the first room that is mentioned in MyTimetable (usually Gemini-zuid 3A.12)
+* **Groups 11-21** work in the second room that is mentioned in MyTimetable (usually Gemini-zuid 3A.13)
 
 The topics of the lectures and the suggested notebooks to work on during the guided selfstudy hours are summarized below:
 
@@ -42,7 +44,7 @@ The topics of the lectures and the suggested notebooks to work on during the gui
 | 3    | Tue | 21/Sep | 13:30-15:30 | Lecture                                  | Registration        | T. van Walsum    | Guest lecture 1: dr. Theo van Walsum (Erasmus MC)                                                            |
 |      | Tue | 21/Sep | 15:30-17:30 | Guided selfstudy                         | Registration        |                  | Work on project 1                                                                                            |
 |      | Thu | 23/Sep | 08:45-10:45 | Lecture                                  | Registration        | M. van Eijnatten | Validation; Active shape models                                                                              |
-|      | Thu | 23/Sep | 10:45-12:45 | Guided selfstudy                         | Registration        |                  | Notebook 1.5 & work on project 1                                                                             |
+|      | Thu | 23/Sep | 10:45-12:45 | Guided selfstudy                         | Registration        |                  | Notebook 1.5 & Notebook on Active Shape Models                                                                             |
 |      |     |        |             |                                          |                     |                  |                                                                                                              |
 | 4    | Tue | 28/Sep | 13:30-15:30 | Lecture                                  | CAD                 | M. Veta          | Introduction into CAD and machine learning                                                                   |
 |      | Tue | 28/Sep | 15:30-17:30 | Guided selfstudy                         | CAD                 |                  | Notebook 2.1                                                                                                 |
@@ -53,12 +55,12 @@ The topics of the lectures and the suggested notebooks to work on during the gui
 |      |     |        |             |                                          |                     |                  |                                                                                                              |
 | 5    | Tue | 05/Oct | 13:30-15:30 | Lecture                                  | CAD                 | M. Veta          | Logistic regression and neural networks                                                                      |
 |      | Tue | 05/Oct | 15:30-17:30 | Guided selfstudy                         | CAD                 |                  | Notebook 2.2                                                                                                 |
-|      | Thu | 07/Oct | 08:45-10:45 | Lecture                                  | CAD (CNNs)          |                  | Convolutional neural networks                                                                                |
+|      | Thu | 07/Oct | 08:45-10:45 | Lecture                                  | CAD (CNNs)          | N. Awasthi       | Convolutional neural networks                                                                                |
 |      | Thu | 07/Oct | 10:45-12:45 | Guided selfstudy                         | CAD (CNNs)          |                  | Notebook 2.3                                                                                                 |
 |      |     |        |             |                                          |                     |                  |                                                                                                              |
-| 6    | Tue | 12/Oct | 13:30-15:30 | Lecture                                  | CAD (CNNs)          |                  | Deep learning frameworks and applications                                                                    |
+| 6    | Tue | 12/Oct | 13:30-15:30 | Lecture                                  | CAD (CNNs)          | N. Awasthi       | Deep learning frameworks and applications                                                                    |
 |      | Tue | 12/Oct | 15:30-17:30 | Guided selfstudy                         | CAD (CNNs)          |                  | Work on project 2                                                                                            |
-|      | Thu | 14/Oct | 08:45-10:45 | Lecture                                  | CAD (CNNs)          |                  | Unsupervised machine learning                                                                                |
+|      | Thu | 14/Oct | 08:45-10:45 | Lecture                                  | CAD (CNNs)          | N. Awasthi       | Unsupervised machine learning                                                                                |
 |      | Thu | 14/Oct | 10:45-12:45 | Guided selfstudy                         | CAD (CNNs)          |                  | Notebook 2.5 & work on project 2                                                                             |
 |      |     |        |             |                                          |                     |                  |                                                                                                              |
 | 7    | Tue | 19/Oct | 13:30-15:30 | Lecture                                  | Registration + CNNs | M. van Eijnatten | First hour: Deep learning for deformable image registration; Second hour: Questions & preparing for the exam |
@@ -71,7 +73,7 @@ The topics of the lectures and the suggested notebooks to work on during the gui
 |      | Tue | 02/Nov | 09:00-12:00 | WRITTEN EXAM                             |                     |                  |                                                                                                              |
 
 ## Materials
-Primary study materials are the **lecture slides** and the **reader** in the form of Jupyter notebooks containing theory, practical exercises and questions. In addition, you can study the relevant sections from the following books:
+Primary study materials are the **lecture slides** (will be added to GitHub soon) and the [**Jupyter Notebooks**](https://github.com/tueimage/8dc00-mia/tree/master/reader) containing theory, practical exercises and questions. An easy way to access the theory in these Notebooks, e.g. to study for the exam, is the [**virtual reader**](https://8dc00-website.readthedocs.io/en/latest/). In addition, you can study the relevant sections from the following **books**:
 
 * Fitzpatrick, J.M., Hill, D.L. and Maurer Jr, C.R., [Image registration](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.464.5408&rep=rep1&type=pdf).
 * Kolter, Z. Do, C., [Linear Algebra Review and Reference](http://cs229.stanford.edu/section/cs229-linalg.pdf)
@@ -84,7 +86,7 @@ During the practical sessions the students can work on practical exercises and t
 
 **IMPORTANT: It is essential that you correctly set up the Python working environment by the end of the first week of the course so there are no delays in the work on the practicals.**
 
-To get started, carefully follow the instructions in Notebook 0.1.
+To get started, carefully follow the instructions [here](https://8dc00-website.readthedocs.io/en/latest/reader/0.1_Software_guide.html).
 
 ## Python quiz
 
@@ -108,12 +110,13 @@ Grading of the assignments will be done per group, however, it is possible that 
 
 ## Lecturers and teaching assistants
 Course instructors:
-* Maureen van Eijnatten  -  [(Make an appointment with Maureen)](https://maureenvaneijnatten.youcanbook.me)
-* Mitko Veta
+* dr. Maureen van Eijnatten (Assistant Professor)  -  [(Make an appointment with Maureen)](https://maureenvaneijnatten.youcanbook.me)
+* dr. Mitko Veta (Assistant Professor)
+* dr. Navchetan Awasthi (postdoctoral researcher)
 
 Guest lecturers:
-* Theo van Walsum (Erasmus MC)
-* 
+* dr.ir. Theo van Walsum (Erasmus MC)
+* t.b.d.
 
 Teaching assistants:
 * Luuk van der Hoek (MSc student)
