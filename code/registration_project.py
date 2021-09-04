@@ -1,5 +1,5 @@
 """
-Registration project code.
+Project code for image registration topics.
 """
 
 import numpy as np

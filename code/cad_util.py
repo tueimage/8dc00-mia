@@ -1,5 +1,5 @@
 """
-Utility functions for computer-aided diagnosis.
+Utility functions for CAD.
 """
 
 import numpy as np

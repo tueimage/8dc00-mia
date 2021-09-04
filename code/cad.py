@@ -1,5 +1,5 @@
 """
-CAD module code main code.
+CAD module main code.
 """
 
 import numpy as np

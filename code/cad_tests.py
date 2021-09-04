@@ -1,5 +1,5 @@
 """
-Test code for computer-aided diagnosis.
+Test code for CAD.
 """
 
 from builtins import print

@@ -1,5 +1,5 @@
 """
-Project code+scripts for 8DC00 course.
+Project code for CAD topics.
 """
 
 import numpy as np
