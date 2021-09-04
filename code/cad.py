@@ -74,10 +74,23 @@ def mypca(X):
 
     X = X - np.mean(X, axis=0)
 
-    #------------------------------------------------------------------#
-    #TODO: Calculate covariance matrix of X, find eigenvalues and eigenvectors,
+    # Calculates covariance matrix of X, find eigenvalues and eigenvectors,
     # sort them, and rotate X using the eigenvectors
-    #------------------------------------------------------------------#
+    # Calculate covariance matrix of X
+    sigma = np.cov(X, rowvar=False)
+    # Find eigenvalues and eigenvectors of covariance matrix
+    # - the column v[:,i] is the eigenvector corresponding to the eigenvalue w[i]
+    w, v = np.linalg.eig(sigma)
+    # Sort eigenvalues and eigenvectors
+    # Find ordering of eigenvalues
+    ix = np.argsort(w)[::-1]
+    # Reorder eigenvalues
+    w = w[ix]
+    # Reorder eigenvectors
+    v = v[:, ix]
+    # Rotate X using the eigenvectors
+    X_pca = v.T.dot(X.T)
+    X_pca = X_pca.T
 
     #Return fraction of variance
     fraction_variance = np.zeros((X_pca.shape[1],1))
