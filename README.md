@@ -73,7 +73,7 @@ The topics of the lectures and the suggested notebooks to work on during the gui
 |      | Tue | 02/Nov | 09:00-12:00 | WRITTEN EXAM                             |                     |                  |                                                                                                              |
 
 ## Materials
-Primary study materials are the **lecture slides** (will be added to GitHub soon) and the [**Jupyter Notebooks**](https://github.com/tueimage/8dc00-mia/tree/master/reader) containing theory, practical exercises and questions. An easy way to access the theory in these Notebooks, e.g. to study for the exam, is the [**virtual reader**](https://8dc00-website.readthedocs.io/en/latest/). In addition, you can study the relevant sections from the following **books**:
+Primary study materials are the **lecture slides** (will be added to GitHub soon) and the [**Jupyter Notebooks**](https://github.com/tueimage/8dc00-mia/tree/master/reader) containing theory, practical exercises and questions. An easy way to access the theory in these Notebooks, e.g. to study for the exam, is the [**virtual reader**](https://8dc00-mia-docs.readthedocs.io/en/latest/). In addition, you can study the relevant sections from the following **books**:
 
 * Fitzpatrick, J.M., Hill, D.L. and Maurer Jr, C.R., [Image registration](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.464.5408&rep=rep1&type=pdf).
 * Kolter, Z. Do, C., [Linear Algebra Review and Reference](http://cs229.stanford.edu/section/cs229-linalg.pdf)
@@ -86,7 +86,7 @@ During the practical sessions the students can work on practical exercises and t
 
 **IMPORTANT: It is essential that you correctly set up the Python working environment by the end of the first week of the course so there are no delays in the work on the practicals.**
 
-To get started, carefully follow the instructions [here](https://8dc00-website.readthedocs.io/en/latest/reader/0.1_Software_guide.html).
+To get started, carefully follow the instructions [here](https://8dc00-mia-docs.readthedocs.io/en/latest/reader/0.1_Software_guide.html).
 
 ## Python quiz
 
