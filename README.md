@@ -24,8 +24,8 @@ The schedule is as follows:
 * **Guided self-study**: Tuesdays 15:30 - 17:30 (location: Gemini-zuid 3A.12/13) & Thursdays 10:45 - 12:45 (location: Atlas 2.215/Helix oost 1.91)
 
 NB: Since there are two rooms available for the guided self-study, you will be divided over the rooms by your group number (sign yourself up in Canvas->people->groups):
-* **Groups 1-10** work in the first room that is mentioned in MyTimetable (usually Gemini-zuid 3A.12)
-* **Groups 11-21** work in the second room that is mentioned in MyTimetable (usually Gemini-zuid 3A.13)
+* **Groups 1-10** work in the first room that is mentioned in MyTimetable (usually Gemini-zuid 3A.12 on Tues. & Atlas 2.215 on Thur.)
+* **Groups 11-21** work in the second room that is mentioned in MyTimetable (usually Gemini-zuid 3A.13 on Tues. & Helix oost 1.91 on Thur.)
 
 The topics of the lectures and the suggested notebooks to work on during the guided selfstudy hours are summarized below:
 
