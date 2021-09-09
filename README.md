@@ -97,7 +97,7 @@ Please find below an overview of the lecture handhouts, the contents discussed, 
 | 11                     | Deep learning for image registration                            | Additional course material on using deep learning for (deformable) image registration                                      | Partially in 2.4                           |
 
 # Practical work (exercises and project work)
-During the practical sessions the students can work on practical exercises and the project (however, it is expected that students will also work on the project in their own time). The goal of the practical exercises is to help study and understand the material, and develop code and methods that can be used to complete the project work. The project work is divided into two projects, corresponding to the three two main modules of the course. The project work will be done in groups. The groups will be formed in Canvas and you will also submit all your work there (check the Assignments section for the deadlines). Your are expected to do this work independently with the help of the teaching assistants during the guided self-study sessions (begeleide zelfstudie). You can also post your questions in the Discussion section in Canvas at any time.
+During the practical sessions the students can work on practical exercises and the project (however, it is expected that students will also work on the project in their own time). The goal of the practical exercises is to help study and understand the material, and develop code and methods that can be used to complete the project work. Your are expected to do this work independently with the help of the teaching assistants during the guided self-study sessions (begeleide zelfstudie). You can also post your questions in the Discussion section in Canvas at any time.
 
 ## Software
 
@@ -112,6 +112,9 @@ To get started, carefully follow the instructions [here](https://8dc00-mia-docs.
 In the first week of the course you have to do a Python self-assessment quiz in Canvas. The quiz will not be graded. If you fail to complete the quiz before the deadline, you will not get a grade for the course. The goal of the quiz is to give you an idea of the Python programming level that is expected.
 
 If you lack prior knowledge of the Python programming language, you can use the material in the "Python essentials" and "Numerical and scientific computing in Python" modules available [here](https://github.com/tueimage/essential-skills/).
+
+## Projects
+During this course you will work on two projects: [project 1 (image registration)](https://github.com/tueimage/8dc00-mia/blob/master/reader/1.6_Registration_project.ipynb) and [project 2(CAD)](https://github.com/tueimage/8dc00-mia/blob/master/reader/2.5_CAD_project.ipynb). The projects are done in groups of up to 4 students. The groups will be formed in Canvas and you will also submit all your work there (check the Assignments section for the deadlines). 
 
 ## Reading assignment
 As a part of the second project (CAD), you are asked to study a paper by [Graham et al. (2019)](https://doi.org/10.1016/j.media.2019.101563). Give a brief summary of the proposed method and discusss its advantages and weak points in your project report. Assessment will be included in the grade of the report.
