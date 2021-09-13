@@ -20,7 +20,7 @@ The 2021 edition of the course will be given on campus.
 
 The schedule is as follows:
 
-* **Lectures**: Tuesdays 13:30 – 15:30 (location: Gemini-zuid 3A.12) & Thursdays 8:45 – 10:45 (location: Atlas -1.310)
+* **Lectures**: Tuesdays 13:30 – 15:30 (location: AUD 09) & Thursdays 8:45 – 10:45 (location: Atlas -1.310)
 * **Guided self-study**: Tuesdays 15:30 - 17:30 (location: Gemini-zuid 3A.12/13) & Thursdays 10:45 - 12:45 (location: Atlas 2.215/Helix oost 1.91)
 
 NB: Since there are two rooms available for the guided self-study, you will be divided over the rooms by your group number (sign yourself up in Canvas->people->groups):
