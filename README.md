@@ -20,7 +20,7 @@ The 2021 edition of the course will be given on campus.
 
 The schedule is as follows:
 
-* **Lectures**: Tuesdays 13:30 – 15:30 (location: Gemini-zuid 3A.12) & Thursdays 8:45 – 10:45 (location: Atlas -1.310)
+* **Lectures**: Tuesdays 13:30 – 15:30 (location: AUD 09) & Thursdays 8:45 – 10:45 (location: Atlas -1.310)
 * **Guided self-study**: Tuesdays 15:30 - 17:30 (location: Gemini-zuid 3A.12/13) & Thursdays 10:45 - 12:45 (location: Atlas 2.215/Helix oost 1.91)
 
 NB: Since there are two rooms available for the guided self-study, you will be divided over the rooms by your group number (sign yourself up in Canvas->people->groups):
@@ -89,12 +89,13 @@ Please find below an overview of the lecture handhouts, the contents discussed, 
 | 3                      | Point-based registration                                        | Point-based registration (theory); Optimization; Evaluation of registration accuracy                                       | 1.2                                        |
 | 4                      | Intensity-based registration                                    | Probability theory; Intensity-based similarity metrics; Optimization; Gradient descent; Intensity-based image registration | Spread over three notebooks: 1.3, 1.4, 1.5 |
 | 5                      | Validation; Active shape models                                 | Validation in medical image analysis; Active shape models                                                                  | 1.5; Notebook on Active Shape Models       |
-| 6                      | Linear regression                                               | Linear regression as the most basic building block of deep neural networks; generalization and overfitting                 | 2.1, partially 2.3                         |
-| 7                      | Logistic regression and neural networks                         | Logistic regression; extension of neural network definition; k-NN algorithm                                                | 2.2, partially 2.3                         |
-| 8                      | Convolutional neural networks                                   | Building blocks of neural networks                                                                                         | 2.3                                        |
-| 9                      | Deep learning frameworks and applications                       | Examples of neural networks / deep learning frameworks with applications                                                   | 2.3                                        |
-| 10                     | Unsupervised machine learning                                   | Supervised vs. unsupervised learning; K-means; PCA; autoencoder                                                            | 2.4                                        |
-| 11                     | Deep learning for image registration                            | Additional course material on using deep learning for (deformable) image registration                                      | Partially in 2.4                           |
+| 6                      | Computer-aided diagnosis                                               | Introduction into computer-aided diagnosis & machine learning                 | 2.1, partially 2.3                         |
+| 7                      | Linear regression                                               | Linear regression as the most basic building block of deep neural networks; generalization and overfitting                 | 2.1, partially 2.3                         |
+| 8                      | Logistic regression and neural networks                         | Logistic regression; extension of neural network definition; k-NN algorithm                                                | 2.2, partially 2.3                         |
+| 9                      | Convolutional neural networks                                   | Building blocks of neural networks                                                                                         | 2.3                                        |
+| 10                      | Deep learning frameworks and applications                       | Examples of neural networks / deep learning frameworks with applications                                                   | 2.3                                        |
+| 11                     | Unsupervised machine learning                                   | Supervised vs. unsupervised learning; K-means; PCA; autoencoder                                                            | 2.4                                        |
+| 12                     | Deep learning for image registration                            | Additional course material on using deep learning for (deformable) image registration                                      | Partially in 2.4                           |
 
 # Practical work (exercises and project work)
 During the practical sessions the students can work on practical exercises and the project (however, it is expected that students will also work on the project in their own time). The goal of the practical exercises is to help study and understand the material, and develop code and methods that can be used to complete the project work. Your are expected to do this work independently with the help of the teaching assistants during the guided self-study sessions (begeleide zelfstudie). You can also post your questions in the Discussion section in Canvas at any time.
