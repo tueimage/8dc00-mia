@@ -111,7 +111,7 @@ def logistic_regression():
 
     # we need a validation set to monitor for overfitting
     [validationX, validationY] = util.generate_gaussian_data(num_validation_samples, m1, m2, s1, s2)
-    r_val,c_val = validationX.shape
+    r_val, c_val = validationX.shape
     print('Validation sample shape: {}'.format(validationX.shape))
     
     validationXones = util.addones(validationX)
@@ -141,7 +141,7 @@ def logistic_regression():
     fig = plt.figure(figsize=(15,8))
     ax1 = fig.add_subplot(121)
     im1, Xh_ones, num_range_points = util.plot_lr(trainingX, trainingY, Theta, ax1)
-    util.scatter_data(trainingX, trainingY, ax=ax1);
+    util.scatter_data(trainingX, trainingY, ax=ax1)
     ax1.grid()
     ax1.set_xlabel('x_1')
     ax1.set_ylabel('x_2')
@@ -197,7 +197,7 @@ def logistic_regression():
         text_str2 = 'iter.={}, loss={:.3f}, val. loss={:.3f} '.format(k, loss[k], validation_loss[k])
         txt2.set_text(text_str2)
 
-
+        plt.pause(0.001)
         display(fig)
         clear_output(wait = True)
 
@@ -468,3 +468,8 @@ def ax_settings(ax):
     ax.set_ylim(-7,7)
     ax.set_aspect('equal', adjustable='box')
     ax.grid()
+
+
+if __name__ == "__main__":
+
+    logistic_regression()

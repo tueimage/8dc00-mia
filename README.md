@@ -20,12 +20,8 @@ The 2022 edition of the course will be given on campus. The lectures will not be
 
 The schedule is as follows:
 
-* **Lectures**: Tuesdays 13:30 – 15:30 (location: to be announced) & Thursdays 8:45 – 10:45 (location: to be announced)
-* **Guided self-study**: Tuesdays 15:30 - 17:30 (location: to be announced) & Thursdays 10:45 - 12:45 (location: to be announced)
-
-NB: Since there are two rooms available for the guided self-study, you will be divided over the rooms by your group number (sign yourself up in Canvas->people->groups):
-* **Even group numbers** work in the first room that is mentioned in MyTimetable.
-* **Uneven group numbers** work in the second room that is mentioned in MyTimetable.
+* **Lectures**: Tuesdays 13:30 – 15:30 & Thursdays 8:45 – 10:45 (location: Atlas -1.210)
+* **Guided self-study**: Tuesdays 15:30 - 17:30 & Thursdays 10:45 - 12:45 (location: Gemini-zuid 3A.12)
 
 The course schedule is summarized below:
 
@@ -41,20 +37,19 @@ The course schedule is summarized below:
 |      | Thu | 15/Sep | 08:45-10:45 | Lecture                                  | Registration        | M. van Eijnatten | Validation; Active shape models                                                                              |
 |      | Thu | 15/Sep | 10:45-12:45 | Guided selfstudy                         | Registration        |                  |                                                                                                              |
 |      |     |        |             |                                          |                     |                  |                                                                                                              |
-| 3    | Tue | 20/Sep | 13:30-15:30 | Lecture                                  | Registration        | t.b.a.           | Guest lecture 1                                                                                              |
-|      | Tue | 20/Sep | 15:30-17:30 | Guided selfstudy                         | Registration        |                  |                                                                                                              |
-|      | Thu | 22/Sep | 08:45-10:45 | Lecture                                  | Registration        | no lecture!      |                                                                                                              |
-|      | Thu | 22/Sep | 10:45-12:45 | Guided selfstudy                         | Registration        |                  |                                                                                                              |
+| 3    | Tue | 20/Sep | 13:30-15:30 | Lecture                                  | CAD                 | C. Scannell      | Introduction into CAD and machine learning                                                                                           |
+|      | Tue | 20/Sep | 15:30-17:30 | Guided selfstudy                         | CAD                 |                  |                                                                                                              |
+|      | Thu | 22/Sep | 08:45-10:45 | Lecture                                  | CAD                 | C. Scannell      | Linear regression                                                                                            |
+|      | Thu | 22/Sep | 10:45-12:45 | Guided selfstudy                         | CAD                 |                  |                                                                                                              |
 |      |     |        |             |                                          |                     |                  |                                                                                                              |
-| 4    | Tue | 27/Sep | 13:30-15:30 | Lecture                                  | CAD                 | M. Veta          | Introduction into CAD and machine learning                                                                   |
-|      | Tue | 27/Sep | 15:30-17:30 | Guided selfstudy                         | CAD                 |                  |                                                                                                              |
-|      | Thu | 29/Sep | 08:45-10:45 | Lecture                                  | CAD                 | M. Veta          | Linear regression                                                                                            |
+| 4    | Tue | 27/Sep | 13:30-15:30 | Lecture                                  | Registration        | Rob Tijssen (Catharina hospital)           | Guest lecture 1: Image registration for radiotherapy                                                                                             |
+|      | Tue | 27/Sep | 15:30-17:30 | Guided selfstudy                         | Registration                 |                  |                                                                                                              |
+|      | Thu | 29/Sep | 08:45-10:45 | Lecture                                  | CAD                 | C. Scannell      | Logistic regression and neural networks                                                                      |
 |      | Thu | 29/Sep | 10:45-12:45 | Guided selfstudy                         | CAD                 |                  |                                                                                                              |
-|      |     |        |             |                                          |                     |                  |                                                                                                              |
-|      | Fri | 30/Sep | 23:59       | DEADLINE Report project 1 (registration) |                     |
-|      |     |        |             |                                          |                     |                  |                                                                                                              |
-| 5    | Tue | 04/Oct | 13:30-15:30 | Lecture                                  | CAD                 | M. Veta          | Logistic regression and neural networks                                                                      |
-|      | Tue | 04/Oct | 15:30-17:30 | Guided selfstudy                         | CAD                 |                  |                                                                                                              |
+|      |     |        |             |                                          |                     |                  |                                                                                                              |                                                               |
+| 5    | Tue | 04/Oct | 13:30-15:30 | Catch-up day (no lecture!)               |                  | n.a.             |                                                                       |
+|      | Tue | 04/Oct | 15:30-17:30 | Guided selfstudy                         | Registration / CAD                 |                  |                                                                                                              |
+|      | Wed | 05/Oct | 23:59       | DEADLINE Report project 1 (registration) |                     |
 |      | Thu | 06/Oct | 08:45-10:45 | Lecture                                  | CAD (CNNs)          | S. Harrevelt     | Convolutional neural networks                                                                                |
 |      | Thu | 06/Oct | 10:45-12:45 | Guided selfstudy                         | CAD (CNNs)          |                  |                                                                                                              |
 |      |     |        |             |                                          |                     |                  |                                                                                                              |
@@ -65,12 +60,12 @@ The course schedule is summarized below:
 |      |     |        |             |                                          |                     |                  |                                                                                                              |
 | 7    | Tue | 18/Oct | 13:30-15:30 | Lecture                                  | CAD                 | t.b.a.           | Guest lecture 2                                                                                              |
 |      | Tue | 18/Oct | 15:30-17:30 | Guided selfstudy                         |                     |                  |                                                                                                              |
-|      | Thu | 20/Oct | 08:45-10:45 | Lecture                                  | Registration + CNNs | M. van Eijnatten | First hour: Deep learning for deformable image registration; Second hour: Questions & preparing for the exam |
+|      | Thu | 20/Oct | 08:45-10:45 | Lecture                                  | Registration + CNNs | M. van Eijnatten | First hour: Deep learning for image registration; Second hour: Questions & preparing for the exam |
 |      | Thu | 20/Oct | 10:45-12:45 | Guided selfstudy                         |                     |                  |                                                                                                              |
 |      |     |        |             |                                          |                     |                  |                                                                                                              |
 |      | Tue | 25/Oct | 23:59       | DEADLINE Report project 2 (CAD)          |                     |                  |
 |      |     |        |             |                                          |                     |                  |                                                                                                              |
-|      | xxx | xxx    | xxx         | WRITTEN EXAM                             |                     |                  |                                                                                                              |
+|      | Tue | 01/Nov  | 09:00 - 12:00   | WRITTEN EXAM                             |                     |                  |                                                                                                              |
 
 ## Materials
 Primary study materials are the **lecture slides** (will be added to GitHub soon) and the [**Jupyter Notebooks**](https://github.com/tueimage/8dc00-mia/tree/master/reader) containing theory, practical exercises and questions. An easy way to access the theory in these Notebooks, e.g. to study for the exam, is the [**virtual reader**](https://8dc00-mia-docs.readthedocs.io/en/latest/index.html). In addition, you can study the relevant sections from the following **books**:
@@ -84,21 +79,23 @@ Please find below an overview of the lecture handhouts, the contents discussed, 
 
 | Lecture handouts (PDF) | Filename                                                        | Contents                                                                                                                   | Notebook(s)                                |
 | ---------------------- | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| 1                      | Course introduction                                             | Practical information about the course                                                                                     | 0.1                                        |
-| 2                      | Introduction to image registration; Geometrical transformations | Review of linear algebra; Introduction to image registration; Geometrical transformations                                  | 1.1                                        |
-| 3                      | Point-based registration                                        | Point-based registration (theory); Optimization; Evaluation of registration accuracy                                       | 1.2                                        |
-| 4                      | Intensity-based registration                                    | Probability theory; Intensity-based similarity metrics; Optimization; Gradient descent; Intensity-based image registration | Spread over three notebooks: 1.3, 1.4, 1.5 |
-| 5                      | Validation; Active shape models                                 | Validation in medical image analysis; Active shape models                                                                  | 1.5; Notebook on Active Shape Models       |
-| 6                      | Computer-aided diagnosis                                        | Introduction into computer-aided diagnosis & machine learning                                                              | 2.1, partially 2.3                         |
-| 7                      | Linear regression                                               | Linear regression as the most basic building block of deep neural networks; generalization and overfitting                 | 2.1, partially 2.3                         |
-| 8                      | Logistic regression and neural networks                         | Logistic regression; extension of neural network definition; k-NN algorithm                                                | 2.2, partially 2.3                         |
-| 9                      | Convolutional neural networks                                   | Building blocks of neural networks                                                                                         | 2.3                                        |
-| 10                     | Deep learning frameworks and applications                       | Examples of neural networks / deep learning frameworks with applications                                                   | 2.3                                        |
-| 11                     | Unsupervised machine learning                                   | Supervised vs. unsupervised learning; K-means; PCA; autoencoder                                                            | 2.4                                        |
-| 12                     | Deep learning for image registration                            | Additional course material on using deep learning for (deformable) image registration                                      | Partially in 2.4                           |
+| 1a                      | Course introduction                                             | Practical information about the course                                                                                     | 0.1                                        |
+| 1b                      | Introduction to image registration; Geometrical transformations | Review of linear algebra; Introduction to image registration; Geometrical transformations                                  | 1.1                                        |
+| 2                      | Point-based registration                                        | Point-based registration (theory); Optimization; Evaluation of registration accuracy                                       | 1.2                                        |
+| 3                      | Intensity-based registration                                    | Probability theory; Intensity-based similarity metrics; Optimization; Gradient descent; Intensity-based image registration | Spread over three notebooks: 1.3, 1.4, 1.5 |
+| 4                      | Validation; Active shape models                                 | Validation in medical image analysis; Active shape models                                                                  | 1.5; Notebook on Active Shape Models       |
+| 5                      | Computer-aided diagnosis                                        | Introduction into computer-aided diagnosis & machine learning                                                              | 2.1, partially 2.3                         |
+| 6                      | Linear regression                                               | Linear regression as the most basic building block of deep neural networks; generalization and overfitting                 | 2.1, partially 2.3                         |
+| 7                      | Logistic regression and neural networks                         | Logistic regression; extension of neural network definition; k-NN algorithm                                                | 2.2, partially 2.3                         |
+| 8                      | Convolutional neural networks                                   | Building blocks of neural networks                                                                                         | 2.3                                        |
+| 9                     | Deep learning frameworks and applications                       | Examples of neural networks / deep learning frameworks with applications                                                   | 2.3                                        |
+| 10                     | Unsupervised machine learning                                   | Supervised vs. unsupervised learning; K-means; PCA; autoencoder                                                            | 2.4                                        |
+| 11                     | Deep learning for image registration                            | Additional course material on using deep learning for (deformable) image registration                                      | Partially in 2.4                           |
 
 # Practical work (exercises and project work)
 During the practical sessions the students can work on practical exercises and the project (however, it is expected that students will also work on the project in their own time). The goal of the practical exercises is to help study and understand the material, and develop code and methods that can be used to complete the project work. Your are expected to do this work independently with the help of the teaching assistants during the guided self-study sessions (begeleide zelfstudie). You can also post your questions in the Discussion section in Canvas at any time.
+
+NB: Sign yourself up for a project group in Canvas->people->groups.
 
 ## Software
 
@@ -132,18 +129,17 @@ Grading of the assignments will be done per group, however, it is possible that 
 ## Lecturers and teaching assistants
 Course instructors:
 * dr. Maureen van Eijnatten (Assistant Professor)  -  [(Make an appointment with Maureen)](https://maureenvaneijnatten.youcanbook.me)
-* dr. Mitko Veta (Assistant Professor)
+* dr. Cian Scannell (Assistant Professor)
 * Seb Harrevelt, MSc. (PhD researcher)
 
 Guest lecturers:
 * t.b.a.
 
 Teaching assistants:
-* Roderick Westerman (MSc student)
-* Simone Ruiter
-*
-*
-*
-
+* Roderick Westerman
+* Kirsten Lukassen
+* Lieke Bergmans
+* Rebecca Pelsser
+* Linh Nguyen
 
 The main communication with the teachers will be via Canvas and regularly scheduled office hours. We recommend the Discussion section in Canvas as the primary communication channel as this is visible for all students and teachers. Please note that the frequency of the office hours will not increase close to deadlines and the exam, so if you have any questions please come well on time.
