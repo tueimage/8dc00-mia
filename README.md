@@ -1,5 +1,5 @@
 # Medical Image Analysis course (8DC00)
-This course is a sequel to the second year introductory imaging course. In that course the basic principles of image analysis were covered. In 8DC00 we will concentrate on the more advanced image analysis methods and on how they can be used to tackle clinical problems. Topics covered include image registration and computer-aided diagnosis (CAD).
+This course is a sequel to the second year introductory image analysis course. In that course the basic principles of image analysis were covered. In 8DC00 we will concentrate on the more advanced image analysis methods and on how they can be used to tackle clinical problems. Topics covered include image registration and computer-aided diagnosis (CAD).
 
 ## Learning outcomes
 After passing this course, the student is able to:
@@ -16,56 +16,56 @@ This GitHub page contains information about the course and the study material. T
 TLDR: GitHub is for content, Canvas for communication and submission of assignments.
 
 ## Schedule
-The 2022 edition of the course will be given on campus. The lectures will not be recorded to encourage on-campus participation post-covid.
+The 2023 edition of the course will be given on campus. The lectures will not be recorded to encourage on-campus participation post-covid.
 
 The schedule is as follows:
 
-* **Lectures**: Tuesdays 13:30 – 15:30 & Thursdays 8:45 – 10:45 (location: Atlas -1.210)
-* **Guided self-study**: Tuesdays 15:30 - 17:30 & Thursdays 10:45 - 12:45 (location: Gemini-zuid 3A.12)
+* **Lectures**: Tuesdays 13:30 – 15:30 & Thursdays 8:45 – 10:45
+* **Guided self-study**: Tuesdays 15:30 - 17:30 & Thursdays 10:45 - 12:45
 
 The course schedule is summarized below:
 
 | Week | Day | Date   | Time        | Activity                                 | Module              | Lecturer         | Topic                                                                                                        |
 | ---- | --- | ------ | ----------- | ---------------------------------------- | ------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------ |
-| 1    | Tue | 06/Sep | 13:30-15:30 | Lecture                                  | Registration        | M. van Eijnatten | Course introduction; introduction image registration; Geometrical transformations                            |
-|      | Tue | 06/Sep | 15:30-17:30 | Guided selfstudy                         | Registration        |                  |                                                                                                              |
-|      | Thu | 08/Sep | 08:45-10:45 | Lecture                                  | Registration        | M. van Eijnatten | Point-based registration                                                                                     |
-|      | Thu | 08/Sep | 10:45-12:45 | Guided selfstudy                         | Registration        |                  |                                                                                                              |
+| 1    | Tue | 05/Sep | 13:30-15:30 | Lecture                                  | Registration        | M. van Eijnatten | Course introduction; introduction image registration; Geometrical transformations                            |
+|      | Tue | 05/Sep | 15:30-17:30 | Guided selfstudy                         | Registration        |                  |                                                                                                              |
+|      | Thu | 07/Sep | 08:45-10:45 | Lecture                                  | Registration        | M. van Eijnatten | Point-based registration                                                                                     |
+|      | Thu | 07/Sep | 10:45-12:45 | Guided selfstudy                         | Registration        |                  |                                                                                                              |
 |      |     |        |             |                                          |                     |                  |                                                                                                              |
-| 2    | Tue | 13/Sep | 13:30-15:30 | Lecture                                  | Registration        | M. van Eijnatten | Intensity-based registration                                                                                 |
-|      | Tue | 13/Sep | 15:30-17:30 | Guided selfstudy                         | Registration        |                  |                                                                                                              |
-|      | Thu | 15/Sep | 08:45-10:45 | Lecture                                  | Registration        | M. van Eijnatten | Validation; Active shape models                                                                              |
-|      | Thu | 15/Sep | 10:45-12:45 | Guided selfstudy                         | Registration        |                  |                                                                                                              |
+| 2    | Tue | 12/Sep | 13:30-15:30 | Lecture                                  | Registration        | M. van Eijnatten | Intensity-based registration                                                                                 |
+|      | Tue | 12/Sep | 15:30-17:30 | Guided selfstudy                         | Registration        |                  |                                                                                                              |
+|      | Thu | 14/Sep | 08:45-10:45 | Lecture                                  | Registration        | M. van Eijnatten | Validation; Active shape models                                                                              |
+|      | Thu | 14/Sep | 10:45-12:45 | Guided selfstudy                         | Registration        |                  |                                                                                                              |
 |      |     |        |             |                                          |                     |                  |                                                                                                              |
-| 3    | Tue | 20/Sep | 13:30-15:30 | Lecture                                  | CAD                 | C. Scannell      | Introduction into CAD and machine learning                                                                                           |
-|      | Tue | 20/Sep | 15:30-17:30 | Guided selfstudy                         | CAD                 |                  |                                                                                                              |
-|      | Thu | 22/Sep | 08:45-10:45 | Lecture                                  | CAD                 | C. Scannell      | Linear regression                                                                                            |
-|      | Thu | 22/Sep | 10:45-12:45 | Guided selfstudy                         | CAD                 |                  |                                                                                                              |
+| 3    | Tue | 19/Sep | 13:30-15:30 | Lecture                                  | Registration        | t.b.a.           | Guest lecture 1                                                                                           |
+|      | Tue | 19/Sep | 15:30-17:30 | Guided selfstudy                         | Registration        |                  |                                                                                                              |
+|      | Thu | 21/Sep | 08:45-10:45 | Lecture                                  | CAD                 | C. Scannell      | Introduction CAD and machine learning                                                                                            |
+|      | Thu | 21/Sep | 10:45-12:45 | Guided selfstudy                         | CAD                 |                  |                                                                                                              |
 |      |     |        |             |                                          |                     |                  |                                                                                                              |
-| 4    | Tue | 27/Sep | 13:30-15:30 | Lecture                                  | Registration        | Rob Tijssen (Catharina hospital)           | Guest lecture 1: Image registration for radiotherapy                                                                                             |
-|      | Tue | 27/Sep | 15:30-17:30 | Guided selfstudy                         | Registration                 |                  |                                                                                                              |
-|      | Thu | 29/Sep | 08:45-10:45 | Lecture                                  | CAD                 | C. Scannell      | Logistic regression and neural networks                                                                      |
-|      | Thu | 29/Sep | 10:45-12:45 | Guided selfstudy                         | CAD                 |                  |                                                                                                              |
+| 4    | Tue | 26/Sep | 13:30-15:30 | Lecture                                  | CAD                 | C. Scannell      | Linear regression                                                                                             |
+|      | Tue | 26/Sep | 15:30-17:30 | Guided selfstudy                         | CAD                 |                  |                                                                                                              |
+|      | Thu | 28/Sep | 08:45-10:45 | Lecture                                  | CAD                 | C. Scannell      | Logistic regression and neural networks                                                                      |
+|      | Thu | 28/Sep | 10:45-12:45 | Guided selfstudy                         | CAD                 |                  |                                                                                                              |
+|      | Fri | 29/Sep | 23:59       | DEADLINE Report project 1 (registration) |                     |
 |      |     |        |             |                                          |                     |                  |                                                                                                              |                                                               |
-| 5    | Tue | 04/Oct | 13:30-15:30 | Catch-up day (no lecture!)               |                  | n.a.             |                                                                       |
-|      | Tue | 04/Oct | 15:30-17:30 | Guided selfstudy                         | Registration / CAD                 |                  |                                                                                                              |
-|      | Wed | 05/Oct | 23:59       | DEADLINE Report project 1 (registration) |                     |
-|      | Thu | 06/Oct | 08:45-10:45 | Lecture                                  | CAD (CNNs)          | S. Harrevelt     | Convolutional neural networks                                                                                |
-|      | Thu | 06/Oct | 10:45-12:45 | Guided selfstudy                         | CAD (CNNs)          |                  |                                                                                                              |
+| 5    | Tue | 03/Oct | 13:30-15:30 | Lecture                                  | CAD                 | C. Scannell      | Convolutional neural networks                                                           
+|      | Tue | 03/Oct | 15:30-17:30 | Guided selfstudy                         | CAD                 |                  |                                                                                                              |
+|      | Thu | 05/Oct | 08:45-10:45 | Lecture                                  | CAD                 | C. Scannell      |                                                                                 |
+|      | Thu | 05/Oct | 10:45-12:45 | Guided selfstudy                         | CAD                 |                  |                                                                                                              |
 |      |     |        |             |                                          |                     |                  |                                                                                                              |
-| 6    | Tue | 11/Oct | 13:30-15:30 | Lecture                                  | CAD (CNNs)          | S. Harrevelt     | Deep learning frameworks and applications                                                                    |
-|      | Tue | 11/Oct | 15:30-17:30 | Guided selfstudy                         | CAD (CNNs)          |                  |                                                                                                              |
-|      | Thu | 13/Oct | 08:45-10:45 | Lecture                                  | CAD (CNNs)          | S. Harrevelt     | Unsupervised machine learning                                                                                |
-|      | Thu | 13/Oct | 10:45-12:45 | Guided selfstudy                         | CAD (CNNs)          |                  |                                                                                                              |
+| 6    | Tue | 10/Oct | 13:30-15:30 | Catch up day (no lecture)                |                     | -                | Deep learning frameworks and applications                                                                    |
+|      | Tue | 10/Oct | 15:30-17:30 | Guided selfstudy                         | CAD                 |                  |                                                                                                              |
+|      | Thu | 12/Oct | 08:45-10:45 | Lecture                                  | CAD                 | t.b.a.           | Guest lecture 2                                                                                |
+|      | Thu | 12/Oct | 10:45-12:45 | Guided selfstudy                         | CAD                 |                  |                                                                                                              |
 |      |     |        |             |                                          |                     |                  |                                                                                                              |
-| 7    | Tue | 18/Oct | 13:30-15:30 | Lecture                                  | CAD                 | t.b.a.           | Guest lecture 2                                                                                              |
-|      | Tue | 18/Oct | 15:30-17:30 | Guided selfstudy                         |                     |                  |                                                                                                              |
-|      | Thu | 20/Oct | 08:45-10:45 | Lecture                                  | Registration + CNNs | M. van Eijnatten | First hour: Deep learning for image registration; Second hour: Questions & preparing for the exam |
-|      | Thu | 20/Oct | 10:45-12:45 | Guided selfstudy                         |                     |                  |                                                                                                              |
+| 7    | Tue | 17/Oct | 13:30-15:30 | Lecture                                  | CAD                 |                  | Unsupervised machine learning                                                                                              |
+|      | Tue | 17/Oct | 15:30-17:30 | Guided selfstudy                         |                     |                  |                                                                                                              |
+|      | Thu | 19/Oct | 08:45-10:45 | Lecture                                  | Registration + CAD  |                  | Deep learning for medical image registration |
+|      | Thu | 19/Oct | 10:45-12:45 | Guided selfstudy                         |                     |                  |                                                                                                              |
 |      |     |        |             |                                          |                     |                  |                                                                                                              |
-|      | Tue | 25/Oct | 23:59       | DEADLINE Report project 2 (CAD)          |                     |                  |
+| 8    | Tue | 24/Oct | 23:59       | DEADLINE Report project 2 (CAD)          |                     |                  |
 |      |     |        |             |                                          |                     |                  |                                                                                                              |
-|      | Tue | 01/Nov  | 09:00 - 12:00   | WRITTEN EXAM                             |                     |                  |                                                                                                              |
+|      | ? | ?  | 09:00 - 12:00   | WRITTEN EXAM                             |                     |                  |                                                                                                              |
 
 ## Materials
 Primary study materials are the **lecture slides** (will be added to GitHub soon) and the [**Jupyter Notebooks**](https://github.com/tueimage/8dc00-mia/tree/master/reader) containing theory, practical exercises and questions. An easy way to access the theory in these Notebooks, e.g. to study for the exam, is the [**virtual reader**](https://8dc00-mia-docs.readthedocs.io/en/latest/index.html). In addition, you can study the relevant sections from the following **books**:
@@ -128,18 +128,16 @@ Grading of the assignments will be done per group, however, it is possible that 
 
 ## Lecturers and teaching assistants
 Course instructors:
-* dr. Maureen van Eijnatten (Assistant Professor)  -  [(Make an appointment with Maureen)](https://maureenvaneijnatten.youcanbook.me)
 * dr. Cian Scannell (Assistant Professor)
-* Seb Harrevelt, MSc. (PhD researcher)
+* dr. Maureen van Eijnatten (Assistant Professor)
 
 Guest lecturers:
 * t.b.a.
 
 Teaching assistants:
-* Roderick Westerman
-* Kirsten Lukassen
 * Lieke Bergmans
 * Rebecca Pelsser
-* Linh Nguyen
+* Ruben Stoffijn
+* Stefan Rademakers
 
 The main communication with the teachers will be via Canvas and regularly scheduled office hours. We recommend the Discussion section in Canvas as the primary communication channel as this is visible for all students and teachers. Please note that the frequency of the office hours will not increase close to deadlines and the exam, so if you have any questions please come well on time.
