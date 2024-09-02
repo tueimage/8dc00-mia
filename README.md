@@ -115,8 +115,6 @@ If you lack prior knowledge of the Python programming language, you can use the 
 ## Projects
 During this course you will work on two projects: [project 1 (image registration)](https://github.com/tueimage/8dc00-mia/blob/master/reader/1.6_Registration_project.ipynb) and [project 2 (CAD)](https://github.com/tueimage/8dc00-mia/blob/master/reader/2.5_CAD_project.ipynb). The projects are done in groups of up to 4 students. The groups will be formed in Canvas and you will also submit all your work there (check the Assignments section for the deadlines). 
 
-## Reading assignment
-As a part of the second project (CAD), you are asked to study a paper by [Graham et al. (2019)](https://doi.org/10.1016/j.media.2019.101563). Give a brief summary of the proposed method and discusss its advantages and weak points in your project report. Assessment will be included in the grade of the report.
 
 ## Assessment
 The assessment will be performed in the following way:
