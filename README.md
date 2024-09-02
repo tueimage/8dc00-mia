@@ -131,7 +131,12 @@ Course instructors:
 * dr. Ruisheng Su (Assistant Professor)
 
 Teaching assistants:
-* ....
+* Rebecca Pelsser
+* Mike Albertz
+* Sarah de Ruiter
+* Jasper Bongers
+* Marijn de Lange
+
 
 
 The main communication with the teachers will be via Canvas and regularly scheduled office hours. We recommend the Discussion section in Canvas as the primary communication channel as this is visible for all students and teachers. Please note that the frequency of the office hours will not increase close to deadlines and the exam, so if you have any questions please come well on time.
